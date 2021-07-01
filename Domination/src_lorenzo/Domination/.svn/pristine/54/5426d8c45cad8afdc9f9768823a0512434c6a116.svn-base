@@ -1,0 +1,121 @@
+<html>
+
+<head>
+<title>AI</title>
+
+</head>
+
+<body background="back.jpg">
+
+
+<h1>Coding the AI</h1>
+
+<p>The AI uses the <a href="http://docs.oracle.com/javase/7/docs/api/java/util/ServiceLoader.html">java services architecture</a>
+for the bundled AIs as well as to allow for additional AIs.</p>
+
+You can add an additional AIs by adding to the file:
+
+<blockquote><pre>
+META-INF/services/net.yura.domination.engine.ai.AIManager
+</pre></blockquote>
+
+Inside the main jar file or creating a new jar with a file in the same location that contains a list of classes, one on each line
+
+<blockquote><pre>
+net.yura.domination.engine.ai.AISubmissive
+net.yura.domination.engine.ai.AIEasy
+net.yura.domination.engine.ai.AIAverage
+net.yura.domination.engine.ai.AIHard
+net.yura.domination.engine.ai.AITest
+</pre></blockquote>
+
+Each of the classes need to implement the <a href="https://sourceforge.net/p/domination/code/HEAD/tree/Domination/src/net/yura/domination/engine/ai/AI.java">AI interface</a>
+
+<p>
+Each AI needs to have a unique id. It can be any positive integer that does not clash with existing ids, it is returned by this method:
+<blockquote><pre>
+int getType();
+</pre></blockquote>
+
+Each AI also has a unique String, this is used for selecting the AI and should also not clash with any existing AIs and not contain any spaces (e.g. aggressive)
+<blockquote><pre>
+String getCommand();
+</pre></blockquote>
+
+Here are the existing types and commands that come with the game:
+<blockquote><pre>
+<table border="1">
+<tr>
+<th>class</th>
+<th>type</th>
+<th>command</th>
+</tr>
+<tr>
+<td>reserved for human players</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AISubmissive</td>
+<td>3</td>
+<td>crap</td>
+</tr>
+<tr>
+<td>AIEasy</td>
+<td>1</td>
+<td>easy</td>
+</tr>
+<tr>
+<td>AIAverage</td>
+<td>4</td>
+<td>average</td>
+</tr>
+<tr>
+<td>AIHard</td>
+<td>2</td>
+<td>hard</td>
+</tr>
+<tr>
+<td>AITest</td>
+<td>5</td>
+<td>test</td>
+</tr>
+</table>
+</pre></blockquote>
+
+Before each turn of the AI this method is called in order to give the current game object to the AI.
+<blockquote><pre>
+void setGame(RiskGame game);
+</pre></blockquote>
+
+These are the methods that are called depending on the current state of the game, they all return a String that is the
+command which is passed back to the game.
+<blockquote><pre>
+String getBattleWon();
+String getTacMove();
+String getTrade();
+String getPlaceArmies();
+String getAttack();
+String getRoll();
+String getCapital();
+String getAutoDefendString(); 
+</pre></blockquote>
+
+The list of commands can be found in <a href="commands.htm">here</a><br>
+<br>
+If you do not want to implement all the methods right away you can start by extending <a href="https://sourceforge.net/p/domination/code/HEAD/tree/Domination/src/net/yura/domination/engine/ai/AISubmissive.java">AISubmissive</a>.
+This class follows all the rules of the game but does not attack.<br>
+<br>
+Send me anything interesting you get working: <a href="&#0109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;u&#114;&#097;&#064;&#121;&#117;&#0114;&#097;&#046;&#0110;&#101;&#0116;">&#121;u&#114;&#097;&#064;&#0121;&#0117;&#0114;&#97;&#046;&#0110;&#101;&#0116;</a>
+
+</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

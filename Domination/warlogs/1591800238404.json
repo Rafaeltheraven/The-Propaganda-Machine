@@ -1,0 +1,4439 @@
+{ 
+"players": { 
+"Mongolian": { 
+"capital": "", 
+"mission": "Conquer the world by occupying every territory on the board, thus eliminating all your opponents.", 
+"intial_countries": [ 
+"Indonesia", 
+"Central America", 
+"Venezuela", 
+"Egypt", 
+"Middle East", 
+"Southern Europe", 
+"New Guinea", 
+"Western United States", 
+"Eastern United States", 
+"Ontario", 
+"Brazil", 
+"North Africa", 
+"Siam", 
+"India", 
+"Afghanistan", 
+"Ukraine", 
+"China", 
+"Ural", 
+"Congo", 
+"Western Europe", 
+"Northern Europe" 
+] 
+}, 
+"Romanian": { 
+"capital": "", 
+"mission": "Conquer the world by occupying every territory on the board, thus eliminating all your opponents.", 
+"intial_countries": [ 
+"Eastern Australia", 
+"Alaska", 
+"Argentina", 
+"Madagascar", 
+"Japan", 
+"Iceland", 
+"Western Australia", 
+"Quebec", 
+"Greenland", 
+"North West Territory", 
+"Alberta", 
+"Peru", 
+"South Africa", 
+"Kamchatka", 
+"Mongolia", 
+"Irkutsk", 
+"Yakutsk", 
+"Siberia", 
+"East Africa", 
+"Great Britain", 
+"Scandinavia" 
+] 
+} 
+}, 
+"events": [ 
+{ 
+"type": "fortify", 
+"index": 0, 
+"player1": "Romanian", 
+"country1": "South Africa", 
+"unit_before": 4, 
+"unit_after": 8, 
+"amount": 4 
+}, 
+{ 
+"type": "fortify", 
+"index": 1, 
+"player1": "Romanian", 
+"country1": "Mongolia", 
+"unit_before": 1, 
+"unit_after": 4, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 2, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Quebec", 
+"country2": "Eastern United States", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 3, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Quebec", 
+"country2": "Eastern United States", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 4, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Quebec", 
+"country2": "Eastern United States", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 5, 
+"player": "Romanian", 
+"country1": "Quebec", 
+"country2": "Eastern United States", 
+"init_orig": 6, 
+"init_dest": 0, 
+"amount": 5 
+}, 
+{ 
+"type": "attack", 
+"index": 6, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Eastern United States", 
+"country2": "Ontario", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 7, 
+"player": "Romanian", 
+"country1": "Eastern United States", 
+"country2": "Ontario", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 8, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Ontario", 
+"country2": "Western United States", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+0, 
+0 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 9, 
+"player": "Romanian", 
+"country1": "Ontario", 
+"country2": "Western United States", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 10, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 2, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+4 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 11, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "South Africa", 
+"country2": "Congo", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+1, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 12, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "South Africa", 
+"country2": "Congo", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 13, 
+"player": "Romanian", 
+"country1": "South Africa", 
+"country2": "Congo", 
+"init_orig": 7, 
+"init_dest": 0, 
+"amount": 6 
+}, 
+{ 
+"type": "attack", 
+"index": 14, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 15, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+5, 
+3 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 16, 
+"player": "Romanian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 17, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Egypt", 
+"init_offend": 4, 
+"init_defend": 4, 
+"after_offend": 3, 
+"after_defend": 3, 
+"rolls_offend": [ 
+3, 
+3, 
+3 
+], 
+"rolls_defend": [ 
+4, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 18, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 19, 
+"player": "Romanian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "attack", 
+"index": 20, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Mongolia", 
+"country2": "China", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+3, 
+3 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 21, 
+"player": "Romanian", 
+"country1": "Mongolia", 
+"country2": "China", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 22, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "China", 
+"country2": "Ural", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+0 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 23, 
+"player": "Romanian", 
+"country1": "China", 
+"country2": "Ural", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "move", 
+"index": 24, 
+"player": "Romanian", 
+"country1": "Alaska", 
+"country2": "North West Territory", 
+"init_orig": 8, 
+"init_dest": 1, 
+"amount": 6 
+}, 
+{ 
+"type": "fortify", 
+"index": 25, 
+"player1": "Mongolian", 
+"country1": "Egypt", 
+"unit_before": 3, 
+"unit_after": 7, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 26, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Indonesia", 
+"country2": "Western Australia", 
+"init_offend": 9, 
+"init_defend": 1, 
+"after_offend": 9, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 27, 
+"player": "Mongolian", 
+"country1": "Indonesia", 
+"country2": "Western Australia", 
+"init_orig": 9, 
+"init_dest": 0, 
+"amount": 8 
+}, 
+{ 
+"type": "attack", 
+"index": 28, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_offend": 8, 
+"init_defend": 2, 
+"after_offend": 6, 
+"after_defend": 2, 
+"rolls_offend": [ 
+3, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+4, 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 29, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_offend": 6, 
+"init_defend": 2, 
+"after_offend": 4, 
+"after_defend": 2, 
+"rolls_offend": [ 
+4, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+3 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 30, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 3, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+1, 
+1 
+], 
+"rolls_defend": [ 
+3, 
+3 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 31, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 32, 
+"player": "Mongolian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "attack", 
+"index": 33, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Venezuela", 
+"country2": "Peru", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 34, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Venezuela", 
+"country2": "Peru", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 35, 
+"player": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Peru", 
+"init_orig": 7, 
+"init_dest": 0, 
+"amount": 6 
+}, 
+{ 
+"type": "attack", 
+"index": 36, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Peru", 
+"country2": "Argentina", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 1, 
+"rolls_offend": [ 
+1, 
+0, 
+0 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 37, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Peru", 
+"country2": "Argentina", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 38, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Peru", 
+"country2": "Argentina", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 39, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Peru", 
+"country2": "Argentina", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 2, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+1 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 40, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Egypt", 
+"country2": "East Africa", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 41, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Egypt", 
+"country2": "East Africa", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 42, 
+"player": "Mongolian", 
+"country1": "Egypt", 
+"country2": "East Africa", 
+"init_orig": 6, 
+"init_dest": 0, 
+"amount": 5 
+}, 
+{ 
+"type": "attack", 
+"index": 43, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "East Africa", 
+"country2": "Madagascar", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+2 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 44, 
+"player": "Mongolian", 
+"country1": "East Africa", 
+"country2": "Madagascar", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 45, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Madagascar", 
+"country2": "South Africa", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 46, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Madagascar", 
+"country2": "South Africa", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 47, 
+"player": "Mongolian", 
+"country1": "Madagascar", 
+"country2": "South Africa", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 48, 
+"player1": "Romanian", 
+"country1": "China", 
+"unit_before": 1, 
+"unit_after": 8, 
+"amount": 7 
+}, 
+{ 
+"type": "attack", 
+"index": 49, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "China", 
+"country2": "Siam", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 8, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 50, 
+"player": "Romanian", 
+"country1": "China", 
+"country2": "Siam", 
+"init_orig": 8, 
+"init_dest": 0, 
+"amount": 7 
+}, 
+{ 
+"type": "attack", 
+"index": 51, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Siam", 
+"country2": "Indonesia", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 52, 
+"player": "Romanian", 
+"country1": "Siam", 
+"country2": "Indonesia", 
+"init_orig": 7, 
+"init_dest": 0, 
+"amount": 6 
+}, 
+{ 
+"type": "attack", 
+"index": 53, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Indonesia", 
+"country2": "Western Australia", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 54, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Indonesia", 
+"country2": "Western Australia", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 55, 
+"player": "Romanian", 
+"country1": "Indonesia", 
+"country2": "Western Australia", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 56, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+1, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 57, 
+"player": "Romanian", 
+"country1": "Western Australia", 
+"country2": "Eastern Australia", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 58, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Eastern Australia", 
+"country2": "New Guinea", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+1 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 59, 
+"player": "Romanian", 
+"country1": "Eastern Australia", 
+"country2": "New Guinea", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "move", 
+"index": 60, 
+"player": "Romanian", 
+"country1": "North West Territory", 
+"country2": "Alberta", 
+"init_orig": 7, 
+"init_dest": 1, 
+"amount": 5 
+}, 
+{ 
+"type": "fortify", 
+"index": 61, 
+"player1": "Mongolian", 
+"country1": "Brazil", 
+"unit_before": 2, 
+"unit_after": 5, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 62, 
+"player1": "Mongolian", 
+"country1": "Afghanistan", 
+"unit_before": 1, 
+"unit_after": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "attack", 
+"index": 63, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Brazil", 
+"country2": "Argentina", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 64, 
+"player": "Mongolian", 
+"country1": "Brazil", 
+"country2": "Argentina", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "move", 
+"index": 65, 
+"player": "Mongolian", 
+"country1": "Argentina", 
+"country2": "Brazil", 
+"init_orig": 3, 
+"init_dest": 2, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 66, 
+"player1": "Romanian", 
+"country1": "Western United States", 
+"unit_before": 2, 
+"unit_after": 8, 
+"amount": 6 
+}, 
+{ 
+"type": "fortify", 
+"index": 67, 
+"player1": "Romanian", 
+"country1": "China", 
+"unit_before": 1, 
+"unit_after": 5, 
+"amount": 4 
+}, 
+{ 
+"type": "fortify", 
+"index": 68, 
+"player1": "Romanian", 
+"country1": "Western United States", 
+"unit_before": 8, 
+"unit_after": 9, 
+"amount": 1 
+}, 
+{ 
+"type": "attack", 
+"index": 69, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 9, 
+"init_defend": 1, 
+"after_offend": 9, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 70, 
+"player": "Romanian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_orig": 9, 
+"init_dest": 0, 
+"amount": 8 
+}, 
+{ 
+"type": "attack", 
+"index": 71, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 72, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+3, 
+2 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 73, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 74, 
+"player": "Romanian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_orig": 6, 
+"init_dest": 0, 
+"amount": 5 
+}, 
+{ 
+"type": "attack", 
+"index": 75, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "China", 
+"country2": "India", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+5, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 76, 
+"player": "Romanian", 
+"country1": "China", 
+"country2": "India", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 77, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "India", 
+"country2": "Middle East", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 2, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 78, 
+"player": "Romanian", 
+"country1": "Western Europe", 
+"country2": "Great Britain", 
+"init_orig": 2, 
+"init_dest": 1, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 79, 
+"player1": "Mongolian", 
+"country1": "Egypt", 
+"unit_before": 1, 
+"unit_after": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 80, 
+"player1": "Mongolian", 
+"country1": "Egypt", 
+"unit_before": 2, 
+"unit_after": 5, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 81, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Egypt", 
+"country2": "North Africa", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 5, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 82, 
+"player": "Mongolian", 
+"country1": "Egypt", 
+"country2": "North Africa", 
+"init_orig": 5, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 83, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Congo", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+0 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 84, 
+"player": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Congo", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 85, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Brazil", 
+"country2": "Venezuela", 
+"init_offend": 4, 
+"init_defend": 5, 
+"after_offend": 4, 
+"after_defend": 3, 
+"rolls_offend": [ 
+4, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+3, 
+0 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 86, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Brazil", 
+"country2": "Venezuela", 
+"init_offend": 4, 
+"init_defend": 3, 
+"after_offend": 3, 
+"after_defend": 2, 
+"rolls_offend": [ 
+2, 
+1, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 87, 
+"player": "Mongolian", 
+"country1": "Afghanistan", 
+"country2": "Middle East", 
+"init_orig": 2, 
+"init_dest": 1, 
+"amount": 1 
+}, 
+{ 
+"type": "trade", 
+"index": 88, 
+"player1": "Romanian", 
+"cards": [ 
+"wildcard", 
+"Cavalry - China", 
+"Infantry - Argentina" 
+], 
+"amount": 4 
+}, 
+{ 
+"type": "fortify", 
+"index": 89, 
+"player1": "Romanian", 
+"country1": "Western Europe", 
+"unit_before": 1, 
+"unit_after": 5, 
+"amount": 4 
+}, 
+{ 
+"type": "fortify", 
+"index": 90, 
+"player1": "Romanian", 
+"country1": "Western Europe", 
+"unit_before": 5, 
+"unit_after": 8, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 91, 
+"player1": "Romanian", 
+"country1": "Siam", 
+"unit_before": 1, 
+"unit_after": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 92, 
+"player1": "Romanian", 
+"country1": "Kamchatka", 
+"unit_before": 1, 
+"unit_after": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 93, 
+"player1": "Romanian", 
+"country1": "Ural", 
+"unit_before": 2, 
+"unit_after": 5, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 94, 
+"player1": "Romanian", 
+"country1": "Ural", 
+"unit_before": 5, 
+"unit_after": 8, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 95, 
+"player1": "Romanian", 
+"country1": "Ural", 
+"unit_before": 8, 
+"unit_after": 11, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 96, 
+"player1": "Romanian", 
+"country1": "Western Europe", 
+"unit_before": 8, 
+"unit_after": 10, 
+"amount": 2 
+}, 
+{ 
+"type": "attack", 
+"index": 97, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western Europe", 
+"country2": "North Africa", 
+"init_offend": 10, 
+"init_defend": 1, 
+"after_offend": 10, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+5, 
+5 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 98, 
+"player": "Romanian", 
+"country1": "Western Europe", 
+"country2": "North Africa", 
+"init_orig": 10, 
+"init_dest": 0, 
+"amount": 9 
+}, 
+{ 
+"type": "attack", 
+"index": 99, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "China", 
+"country2": "Afghanistan", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+5, 
+3 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 100, 
+"player": "Romanian", 
+"country1": "China", 
+"country2": "Afghanistan", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 101, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Ural", 
+"country2": "Ukraine", 
+"init_offend": 11, 
+"init_defend": 1, 
+"after_offend": 11, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 102, 
+"player": "Romanian", 
+"country1": "Ural", 
+"country2": "Ukraine", 
+"init_orig": 11, 
+"init_dest": 0, 
+"amount": 10 
+}, 
+{ 
+"type": "attack", 
+"index": 103, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Southern Europe", 
+"init_offend": 9, 
+"init_defend": 1, 
+"after_offend": 9, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+1, 
+1 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 104, 
+"player": "Romanian", 
+"country1": "North Africa", 
+"country2": "Southern Europe", 
+"init_orig": 9, 
+"init_dest": 0, 
+"amount": 8 
+}, 
+{ 
+"type": "attack", 
+"index": 105, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Ukraine", 
+"country2": "Middle East", 
+"init_offend": 10, 
+"init_defend": 2, 
+"after_offend": 8, 
+"after_defend": 2, 
+"rolls_offend": [ 
+3, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+5, 
+2 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 106, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Ukraine", 
+"country2": "Middle East", 
+"init_offend": 8, 
+"init_defend": 2, 
+"after_offend": 8, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2, 
+2 
+], 
+"rolls_defend": [ 
+0, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 107, 
+"player": "Romanian", 
+"country1": "Ukraine", 
+"country2": "Middle East", 
+"init_orig": 8, 
+"init_dest": 0, 
+"amount": 6 
+}, 
+{ 
+"type": "attack", 
+"index": 108, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Southern Europe", 
+"country2": "Northern Europe", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 109, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Southern Europe", 
+"country2": "Northern Europe", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 7, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+2, 
+2 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 110, 
+"player": "Romanian", 
+"country1": "Southern Europe", 
+"country2": "Northern Europe", 
+"init_orig": 7, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "move", 
+"index": 111, 
+"player": "Romanian", 
+"country1": "India", 
+"country2": "Middle East", 
+"init_orig": 2, 
+"init_dest": 6, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 112, 
+"player1": "Mongolian", 
+"country1": "Brazil", 
+"unit_before": 3, 
+"unit_after": 6, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 113, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Brazil", 
+"country2": "Venezuela", 
+"init_offend": 6, 
+"init_defend": 2, 
+"after_offend": 6, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+4, 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 114, 
+"player": "Mongolian", 
+"country1": "Brazil", 
+"country2": "Venezuela", 
+"init_orig": 6, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 115, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Venezuela", 
+"country2": "Central America", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 116, 
+"player": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Central America", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 117, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 118, 
+"player": "Mongolian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "move", 
+"index": 119, 
+"player": "Mongolian", 
+"country1": "Brazil", 
+"country2": "North Africa", 
+"init_orig": 2, 
+"init_dest": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 120, 
+"player1": "Romanian", 
+"country1": "Middle East", 
+"unit_before": 7, 
+"unit_after": 15, 
+"amount": 8 
+}, 
+{ 
+"type": "fortify", 
+"index": 121, 
+"player1": "Romanian", 
+"country1": "Southern Europe", 
+"unit_before": 4, 
+"unit_after": 5, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 122, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 2, 
+"unit_after": 4, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 123, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 4, 
+"unit_after": 6, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 124, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 6, 
+"unit_after": 8, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 125, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 8, 
+"unit_after": 10, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 126, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 10, 
+"unit_after": 12, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 127, 
+"player1": "Romanian", 
+"country1": "Southern Europe", 
+"unit_before": 5, 
+"unit_after": 10, 
+"amount": 5 
+}, 
+{ 
+"type": "attack", 
+"index": 128, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Southern Europe", 
+"country2": "North Africa", 
+"init_offend": 10, 
+"init_defend": 3, 
+"after_offend": 9, 
+"after_defend": 2, 
+"rolls_offend": [ 
+4, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 129, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Southern Europe", 
+"country2": "North Africa", 
+"init_offend": 9, 
+"init_defend": 2, 
+"after_offend": 9, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+4, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 130, 
+"player": "Romanian", 
+"country1": "Southern Europe", 
+"country2": "North Africa", 
+"init_orig": 9, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 131, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Brazil", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 2, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 132, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Middle East", 
+"country2": "Egypt", 
+"init_offend": 15, 
+"init_defend": 1, 
+"after_offend": 14, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 133, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Middle East", 
+"country2": "Egypt", 
+"init_offend": 14, 
+"init_defend": 1, 
+"after_offend": 13, 
+"after_defend": 1, 
+"rolls_offend": [ 
+1, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 134, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Middle East", 
+"country2": "Egypt", 
+"init_offend": 13, 
+"init_defend": 1, 
+"after_offend": 13, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 135, 
+"player": "Romanian", 
+"country1": "Middle East", 
+"country2": "Egypt", 
+"init_orig": 13, 
+"init_dest": 0, 
+"amount": 8 
+}, 
+{ 
+"type": "attack", 
+"index": 136, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Egypt", 
+"country2": "East Africa", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 8, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+2 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 137, 
+"player": "Romanian", 
+"country1": "Egypt", 
+"country2": "East Africa", 
+"init_orig": 8, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 138, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "East Africa", 
+"country2": "Madagascar", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+5 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 139, 
+"player": "Romanian", 
+"country1": "East Africa", 
+"country2": "Madagascar", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "move", 
+"index": 140, 
+"player": "Romanian", 
+"country1": "Madagascar", 
+"country2": "East Africa", 
+"init_orig": 2, 
+"init_dest": 1, 
+"amount": 1 
+}, 
+{ 
+"type": "trade", 
+"index": 141, 
+"player1": "Mongolian", 
+"cards": [ 
+"Cannon - Siberia", 
+"Cavalry - Great Britain", 
+"Infantry - Western United States" 
+], 
+"amount": 6 
+}, 
+{ 
+"type": "fortify", 
+"index": 142, 
+"player1": "Mongolian", 
+"country1": "Congo", 
+"unit_before": 1, 
+"unit_after": 10, 
+"amount": 9 
+}, 
+{ 
+"type": "fortify", 
+"index": 143, 
+"player1": "Mongolian", 
+"country1": "Congo", 
+"unit_before": 10, 
+"unit_after": 12, 
+"amount": 2 
+}, 
+{ 
+"type": "attack", 
+"index": 144, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_offend": 12, 
+"init_defend": 2, 
+"after_offend": 10, 
+"after_defend": 2, 
+"rolls_offend": [ 
+4, 
+3, 
+3 
+], 
+"rolls_defend": [ 
+5, 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 145, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_offend": 10, 
+"init_defend": 2, 
+"after_offend": 9, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+2, 
+2 
+], 
+"rolls_defend": [ 
+3, 
+0 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 146, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_offend": 9, 
+"init_defend": 1, 
+"after_offend": 9, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+3, 
+2 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 147, 
+"player": "Mongolian", 
+"country1": "Congo", 
+"country2": "North Africa", 
+"init_orig": 9, 
+"init_dest": 0, 
+"amount": 8 
+}, 
+{ 
+"type": "attack", 
+"index": 148, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 8, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 149, 
+"player": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_orig": 8, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 150, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Southern Europe", 
+"init_offend": 5, 
+"init_defend": 6, 
+"after_offend": 4, 
+"after_defend": 5, 
+"rolls_offend": [ 
+4, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+4, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 151, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Southern Europe", 
+"init_offend": 4, 
+"init_defend": 5, 
+"after_offend": 4, 
+"after_defend": 3, 
+"rolls_offend": [ 
+5, 
+5, 
+5 
+], 
+"rolls_defend": [ 
+4, 
+3 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 152, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Egypt", 
+"init_offend": 4, 
+"init_defend": 5, 
+"after_offend": 4, 
+"after_defend": 3, 
+"rolls_offend": [ 
+5, 
+4, 
+2 
+], 
+"rolls_defend": [ 
+0, 
+0 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 153, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Egypt", 
+"init_offend": 4, 
+"init_defend": 3, 
+"after_offend": 3, 
+"after_defend": 2, 
+"rolls_offend": [ 
+5, 
+5, 
+2 
+], 
+"rolls_defend": [ 
+5, 
+4 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 154, 
+"player": "Mongolian", 
+"country1": "Western Europe", 
+"country2": "North Africa", 
+"init_orig": 3, 
+"init_dest": 3, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 155, 
+"player1": "Romanian", 
+"country1": "Western United States", 
+"unit_before": 1, 
+"unit_after": 12, 
+"amount": 11 
+}, 
+{ 
+"type": "fortify", 
+"index": 156, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 12, 
+"unit_after": 14, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 157, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 14, 
+"unit_after": 16, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 158, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 16, 
+"unit_after": 18, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 159, 
+"player1": "Romanian", 
+"country1": "Iceland", 
+"unit_before": 1, 
+"unit_after": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 160, 
+"player1": "Romanian", 
+"country1": "Iceland", 
+"unit_before": 2, 
+"unit_after": 4, 
+"amount": 2 
+}, 
+{ 
+"type": "attack", 
+"index": 161, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 12, 
+"init_defend": 3, 
+"after_offend": 10, 
+"after_defend": 3, 
+"rolls_offend": [ 
+5, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+2 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 162, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 10, 
+"init_defend": 3, 
+"after_offend": 9, 
+"after_defend": 2, 
+"rolls_offend": [ 
+4, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+3, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 163, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 9, 
+"init_defend": 2, 
+"after_offend": 7, 
+"after_defend": 2, 
+"rolls_offend": [ 
+5, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 164, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 7, 
+"init_defend": 2, 
+"after_offend": 7, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+1, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 165, 
+"player": "Romanian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_orig": 7, 
+"init_dest": 0, 
+"amount": 6 
+}, 
+{ 
+"type": "attack", 
+"index": 166, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_offend": 6, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 167, 
+"player": "Romanian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_orig": 6, 
+"init_dest": 0, 
+"amount": 5 
+}, 
+{ 
+"type": "attack", 
+"index": 168, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Southern Europe", 
+"country2": "Western Europe", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+3 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 169, 
+"player": "Romanian", 
+"country1": "Southern Europe", 
+"country2": "Western Europe", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "move", 
+"index": 170, 
+"player": "Romanian", 
+"country1": "East Africa", 
+"country2": "Egypt", 
+"init_orig": 2, 
+"init_dest": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 171, 
+"player1": "Mongolian", 
+"country1": "North Africa", 
+"unit_before": 5, 
+"unit_after": 8, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 172, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_offend": 8, 
+"init_defend": 2, 
+"after_offend": 8, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+2, 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 173, 
+"player": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_orig": 8, 
+"init_dest": 0, 
+"amount": 7 
+}, 
+{ 
+"type": "attack", 
+"index": 174, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Europe", 
+"country2": "Northern Europe", 
+"init_offend": 7, 
+"init_defend": 3, 
+"after_offend": 7, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+4, 
+0 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 175, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Europe", 
+"country2": "Northern Europe", 
+"init_offend": 7, 
+"init_defend": 1, 
+"after_offend": 6, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+1, 
+1 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 176, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western Europe", 
+"country2": "Great Britain", 
+"init_offend": 6, 
+"init_defend": 2, 
+"after_offend": 6, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+0 
+], 
+"rolls_defend": [ 
+3, 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 177, 
+"player": "Mongolian", 
+"country1": "Western Europe", 
+"country2": "Great Britain", 
+"init_orig": 6, 
+"init_dest": 0, 
+"amount": 5 
+}, 
+{ 
+"type": "attack", 
+"index": 178, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Great Britain", 
+"country2": "Iceland", 
+"init_offend": 5, 
+"init_defend": 4, 
+"after_offend": 3, 
+"after_defend": 4, 
+"rolls_offend": [ 
+5, 
+3, 
+0 
+], 
+"rolls_defend": [ 
+5, 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 179, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Great Britain", 
+"country2": "Scandinavia", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+3, 
+2 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 180, 
+"player": "Mongolian", 
+"country1": "Great Britain", 
+"country2": "Scandinavia", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 181, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 3, 
+"unit_after": 12, 
+"amount": 9 
+}, 
+{ 
+"type": "fortify", 
+"index": 182, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 12, 
+"unit_after": 15, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 183, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 15, 
+"unit_after": 18, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 184, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 18, 
+"unit_after": 21, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 185, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 21, 
+"unit_after": 23, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 186, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 23, 
+"unit_after": 24, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 187, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 24, 
+"unit_after": 25, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 188, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 25, 
+"unit_after": 26, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 189, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 26, 
+"unit_after": 27, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 190, 
+"player1": "Romanian", 
+"country1": "Egypt", 
+"unit_before": 27, 
+"unit_after": 28, 
+"amount": 1 
+}, 
+{ 
+"type": "attack", 
+"index": 191, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Egypt", 
+"country2": "North Africa", 
+"init_offend": 28, 
+"init_defend": 1, 
+"after_offend": 27, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+3, 
+2 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 192, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Egypt", 
+"country2": "North Africa", 
+"init_offend": 27, 
+"init_defend": 1, 
+"after_offend": 27, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+3 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 193, 
+"player": "Romanian", 
+"country1": "Egypt", 
+"country2": "North Africa", 
+"init_orig": 27, 
+"init_dest": 0, 
+"amount": 26 
+}, 
+{ 
+"type": "attack", 
+"index": 194, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Brazil", 
+"init_offend": 5, 
+"init_defend": 1, 
+"after_offend": 4, 
+"after_defend": 1, 
+"rolls_offend": [ 
+1, 
+0, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 195, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Brazil", 
+"init_offend": 4, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+3, 
+0 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 196, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Brazil", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 2, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+4 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 197, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Brazil", 
+"init_offend": 26, 
+"init_defend": 1, 
+"after_offend": 26, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+3, 
+2 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 198, 
+"player": "Romanian", 
+"country1": "North Africa", 
+"country2": "Brazil", 
+"init_orig": 26, 
+"init_dest": 0, 
+"amount": 8 
+}, 
+{ 
+"type": "attack", 
+"index": 199, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Congo", 
+"init_offend": 18, 
+"init_defend": 1, 
+"after_offend": 18, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+2 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 200, 
+"player": "Romanian", 
+"country1": "North Africa", 
+"country2": "Congo", 
+"init_orig": 18, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 201, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Congo", 
+"country2": "South Africa", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+2, 
+2 
+], 
+"rolls_defend": [ 
+3, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 202, 
+"player": "Romanian", 
+"country1": "Congo", 
+"country2": "South Africa", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 203, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Brazil", 
+"country2": "Argentina", 
+"init_offend": 8, 
+"init_defend": 1, 
+"after_offend": 8, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+5, 
+3 
+], 
+"rolls_defend": [ 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 204, 
+"player": "Romanian", 
+"country1": "Brazil", 
+"country2": "Argentina", 
+"init_orig": 8, 
+"init_dest": 0, 
+"amount": 4 
+}, 
+{ 
+"type": "attack", 
+"index": 205, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Brazil", 
+"country2": "Peru", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 2, 
+"after_defend": 2, 
+"rolls_offend": [ 
+2, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 206, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Argentina", 
+"country2": "Peru", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 2, 
+"after_defend": 2, 
+"rolls_offend": [ 
+5, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+5, 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 207, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Iceland", 
+"country2": "Scandinavia", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+3, 
+1 
+], 
+"rolls_defend": [ 
+0, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 208, 
+"player": "Romanian", 
+"country1": "Iceland", 
+"country2": "Scandinavia", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 209, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_offend": 14, 
+"init_defend": 1, 
+"after_offend": 14, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 210, 
+"player": "Romanian", 
+"country1": "North Africa", 
+"country2": "Western Europe", 
+"init_orig": 14, 
+"init_dest": 0, 
+"amount": 13 
+}, 
+{ 
+"type": "attack", 
+"index": 211, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western Europe", 
+"country2": "Great Britain", 
+"init_offend": 13, 
+"init_defend": 1, 
+"after_offend": 13, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+3, 
+2 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 212, 
+"player": "Romanian", 
+"country1": "Western Europe", 
+"country2": "Great Britain", 
+"init_orig": 13, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "move", 
+"index": 213, 
+"player": "Romanian", 
+"country1": "Argentina", 
+"country2": "Brazil", 
+"init_orig": 2, 
+"init_dest": 2, 
+"amount": 1 
+}, 
+{ 
+"type": "trade", 
+"index": 214, 
+"player1": "Mongolian", 
+"cards": [ 
+"Cavalry - Southern Europe", 
+"Cavalry - Peru", 
+"Cavalry - Congo" 
+], 
+"amount": 8 
+}, 
+{ 
+"type": "fortify", 
+"index": 215, 
+"player1": "Mongolian", 
+"country1": "Peru", 
+"unit_before": 4, 
+"unit_after": 10, 
+"amount": 6 
+}, 
+{ 
+"type": "fortify", 
+"index": 216, 
+"player1": "Mongolian", 
+"country1": "Peru", 
+"unit_before": 10, 
+"unit_after": 11, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 217, 
+"player1": "Mongolian", 
+"country1": "Peru", 
+"unit_before": 11, 
+"unit_after": 14, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 218, 
+"player1": "Mongolian", 
+"country1": "Peru", 
+"unit_before": 14, 
+"unit_after": 15, 
+"amount": 1 
+}, 
+{ 
+"type": "attack", 
+"index": 219, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Peru", 
+"country2": "Venezuela", 
+"init_offend": 15, 
+"init_defend": 2, 
+"after_offend": 13, 
+"after_defend": 2, 
+"rolls_offend": [ 
+3, 
+0, 
+0 
+], 
+"rolls_defend": [ 
+4, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 220, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Peru", 
+"country2": "Venezuela", 
+"init_offend": 13, 
+"init_defend": 2, 
+"after_offend": 13, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+1, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 221, 
+"player": "Mongolian", 
+"country1": "Peru", 
+"country2": "Venezuela", 
+"init_orig": 13, 
+"init_dest": 0, 
+"amount": 12 
+}, 
+{ 
+"type": "attack", 
+"index": 222, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Venezuela", 
+"country2": "Central America", 
+"init_offend": 12, 
+"init_defend": 1, 
+"after_offend": 12, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+3, 
+3 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 223, 
+"player": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Central America", 
+"init_orig": 12, 
+"init_dest": 0, 
+"amount": 11 
+}, 
+{ 
+"type": "attack", 
+"index": 224, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Central America", 
+"country2": "Western United States", 
+"init_offend": 11, 
+"init_defend": 1, 
+"after_offend": 10, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+1, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 225, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Central America", 
+"country2": "Western United States", 
+"init_offend": 10, 
+"init_defend": 1, 
+"after_offend": 10, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2, 
+0 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 226, 
+"player": "Mongolian", 
+"country1": "Central America", 
+"country2": "Western United States", 
+"init_orig": 10, 
+"init_dest": 0, 
+"amount": 9 
+}, 
+{ 
+"type": "attack", 
+"index": 227, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western United States", 
+"country2": "Alberta", 
+"init_offend": 9, 
+"init_defend": 6, 
+"after_offend": 9, 
+"after_defend": 4, 
+"rolls_offend": [ 
+5, 
+4, 
+2 
+], 
+"rolls_defend": [ 
+4, 
+0 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 228, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western United States", 
+"country2": "Alberta", 
+"init_offend": 9, 
+"init_defend": 4, 
+"after_offend": 7, 
+"after_defend": 4, 
+"rolls_offend": [ 
+3, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+4, 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 229, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western United States", 
+"country2": "Alberta", 
+"init_offend": 7, 
+"init_defend": 4, 
+"after_offend": 7, 
+"after_defend": 2, 
+"rolls_offend": [ 
+5, 
+5, 
+1 
+], 
+"rolls_defend": [ 
+2, 
+0 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 230, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Western United States", 
+"country2": "Alberta", 
+"init_offend": 7, 
+"init_defend": 2, 
+"after_offend": 7, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+1, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 231, 
+"player": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Alberta", 
+"init_orig": 7, 
+"init_dest": 0, 
+"amount": 6 
+}, 
+{ 
+"type": "attack", 
+"index": 232, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Alberta", 
+"country2": "Alaska", 
+"init_offend": 6, 
+"init_defend": 18, 
+"after_offend": 6, 
+"after_defend": 16, 
+"rolls_offend": [ 
+4, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+3, 
+3 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 233, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Alberta", 
+"country2": "Alaska", 
+"init_offend": 6, 
+"init_defend": 16, 
+"after_offend": 4, 
+"after_defend": 16, 
+"rolls_offend": [ 
+1, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+5, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 234, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Alberta", 
+"country2": "Alaska", 
+"init_offend": 4, 
+"init_defend": 16, 
+"after_offend": 3, 
+"after_defend": 15, 
+"rolls_offend": [ 
+5, 
+5, 
+5 
+], 
+"rolls_defend": [ 
+5, 
+1 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 235, 
+"player1": "Mongolian", 
+"player2": "Romanian", 
+"country1": "Alberta", 
+"country2": "Ontario", 
+"init_offend": 3, 
+"init_defend": 1, 
+"after_offend": 3, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 236, 
+"player": "Mongolian", 
+"country1": "Alberta", 
+"country2": "Ontario", 
+"init_orig": 3, 
+"init_dest": 0, 
+"amount": 2 
+}, 
+{ 
+"type": "trade", 
+"index": 237, 
+"player1": "Romanian", 
+"cards": [ 
+"Cannon - North West Territory", 
+"Cannon - South Africa", 
+"Cannon - Ukraine" 
+], 
+"amount": 10 
+}, 
+{ 
+"type": "fortify", 
+"index": 238, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 15, 
+"unit_after": 17, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 239, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 17, 
+"unit_after": 20, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 240, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 20, 
+"unit_after": 23, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 241, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 23, 
+"unit_after": 33, 
+"amount": 10 
+}, 
+{ 
+"type": "fortify", 
+"index": 242, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 33, 
+"unit_after": 40, 
+"amount": 7 
+}, 
+{ 
+"type": "fortify", 
+"index": 243, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 40, 
+"unit_after": 44, 
+"amount": 4 
+}, 
+{ 
+"type": "fortify", 
+"index": 244, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 44, 
+"unit_after": 47, 
+"amount": 3 
+}, 
+{ 
+"type": "fortify", 
+"index": 245, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 47, 
+"unit_after": 49, 
+"amount": 2 
+}, 
+{ 
+"type": "fortify", 
+"index": 246, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 49, 
+"unit_after": 50, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 247, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 50, 
+"unit_after": 51, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 248, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 51, 
+"unit_after": 52, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 249, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 52, 
+"unit_after": 53, 
+"amount": 1 
+}, 
+{ 
+"type": "fortify", 
+"index": 250, 
+"player1": "Romanian", 
+"country1": "Alaska", 
+"unit_before": 53, 
+"unit_after": 54, 
+"amount": 1 
+}, 
+{ 
+"type": "attack", 
+"index": 251, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "North West Territory", 
+"country2": "Ontario", 
+"init_offend": 4, 
+"init_defend": 2, 
+"after_offend": 4, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+3, 
+3 
+], 
+"rolls_defend": [ 
+2, 
+0 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 252, 
+"player": "Romanian", 
+"country1": "North West Territory", 
+"country2": "Ontario", 
+"init_orig": 4, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "attack", 
+"index": 253, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Alaska", 
+"country2": "Alberta", 
+"init_offend": 54, 
+"init_defend": 1, 
+"after_offend": 54, 
+"after_defend": 0, 
+"rolls_offend": [ 
+4, 
+4, 
+2 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 254, 
+"player": "Romanian", 
+"country1": "Alaska", 
+"country2": "Alberta", 
+"init_orig": 54, 
+"init_dest": 0, 
+"amount": 53 
+}, 
+{ 
+"type": "attack", 
+"index": 255, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Alberta", 
+"country2": "Western United States", 
+"init_offend": 53, 
+"init_defend": 1, 
+"after_offend": 53, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+2 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 256, 
+"player": "Romanian", 
+"country1": "Alberta", 
+"country2": "Western United States", 
+"init_orig": 53, 
+"init_dest": 0, 
+"amount": 52 
+}, 
+{ 
+"type": "attack", 
+"index": 257, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 52, 
+"init_defend": 1, 
+"after_offend": 51, 
+"after_defend": 1, 
+"rolls_offend": [ 
+3, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 258, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 51, 
+"init_defend": 1, 
+"after_offend": 50, 
+"after_defend": 1, 
+"rolls_offend": [ 
+4, 
+4, 
+3 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 259, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_offend": 50, 
+"init_defend": 1, 
+"after_offend": 50, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+4, 
+1 
+], 
+"rolls_defend": [ 
+4 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 260, 
+"player": "Romanian", 
+"country1": "Western United States", 
+"country2": "Central America", 
+"init_orig": 50, 
+"init_dest": 0, 
+"amount": 49 
+}, 
+{ 
+"type": "attack", 
+"index": 261, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_offend": 49, 
+"init_defend": 1, 
+"after_offend": 49, 
+"after_defend": 0, 
+"rolls_offend": [ 
+5, 
+2, 
+1 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 262, 
+"player": "Romanian", 
+"country1": "Central America", 
+"country2": "Venezuela", 
+"init_orig": 49, 
+"init_dest": 0, 
+"amount": 48 
+}, 
+{ 
+"type": "attack", 
+"index": 263, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Peru", 
+"init_offend": 48, 
+"init_defend": 1, 
+"after_offend": 47, 
+"after_defend": 1, 
+"rolls_offend": [ 
+5, 
+4, 
+0 
+], 
+"rolls_defend": [ 
+5 
+] 
+}, 
+{ 
+"type": "attack", 
+"index": 264, 
+"player1": "Romanian", 
+"player2": "Mongolian", 
+"country1": "Venezuela", 
+"country2": "Peru", 
+"init_offend": 47, 
+"init_defend": 1, 
+"after_offend": 47, 
+"after_defend": 0, 
+"rolls_offend": [ 
+2, 
+1, 
+0 
+], 
+"rolls_defend": [ 
+1 
+] 
+}, 
+{ 
+"type": "move", 
+"index": 265, 
+"player": "Romanian", 
+"country1": "Venezuela", 
+"country2": "Peru", 
+"init_orig": 47, 
+"init_dest": 0, 
+"amount": 3 
+}, 
+{ 
+"type": "goal", 
+"index": 266, 
+"player1": "Romanian", 
+"mission": "Conquer the world by occupying every territory on the board, thus eliminating all your opponents.", 
+"win_game": "true" 
+} 
+], 
+"countries": { 
+"Alaska": { 
+"continent": "North America", 
+"id": "Alaska", 
+"neighbours": [ 
+"North West Territory", 
+"Alberta", 
+"Kamchatka" 
+] 
+}, 
+"North West Territory": { 
+"continent": "North America", 
+"id": "North-West-Territory", 
+"neighbours": [ 
+"Alaska", 
+"Alberta", 
+"Ontario", 
+"Greenland" 
+] 
+}, 
+"Alberta": { 
+"continent": "North America", 
+"id": "Alberta", 
+"neighbours": [ 
+"Alaska", 
+"North West Territory", 
+"Ontario", 
+"Western United States" 
+] 
+}, 
+"Western United States": { 
+"continent": "North America", 
+"id": "Western-United-States", 
+"neighbours": [ 
+"Alberta", 
+"Ontario", 
+"Central America", 
+"Eastern United States" 
+] 
+}, 
+"Central America": { 
+"continent": "North America", 
+"id": "Central-America", 
+"neighbours": [ 
+"Western United States", 
+"Eastern United States", 
+"Venezuela" 
+] 
+}, 
+"Greenland": { 
+"continent": "North America", 
+"id": "Greenland", 
+"neighbours": [ 
+"North West Territory", 
+"Ontario", 
+"Quebec", 
+"Iceland" 
+] 
+}, 
+"Ontario": { 
+"continent": "North America", 
+"id": "Ontario", 
+"neighbours": [ 
+"North West Territory", 
+"Alberta", 
+"Western United States", 
+"Greenland", 
+"Quebec", 
+"Eastern United States" 
+] 
+}, 
+"Quebec": { 
+"continent": "North America", 
+"id": "Quebec", 
+"neighbours": [ 
+"Greenland", 
+"Ontario", 
+"Eastern United States" 
+] 
+}, 
+"Eastern United States": { 
+"continent": "North America", 
+"id": "Eastern-United-States", 
+"neighbours": [ 
+"Western United States", 
+"Central America", 
+"Ontario", 
+"Quebec" 
+] 
+}, 
+"Venezuela": { 
+"continent": "South America", 
+"id": "Venezuela", 
+"neighbours": [ 
+"Central America", 
+"Peru", 
+"Brazil" 
+] 
+}, 
+"Peru": { 
+"continent": "South America", 
+"id": "Peru", 
+"neighbours": [ 
+"Venezuela", 
+"Brazil", 
+"Argentina" 
+] 
+}, 
+"Brazil": { 
+"continent": "South America", 
+"id": "Brazil", 
+"neighbours": [ 
+"Venezuela", 
+"Peru", 
+"Argentina", 
+"North Africa" 
+] 
+}, 
+"Argentina": { 
+"continent": "South America", 
+"id": "Argentina", 
+"neighbours": [ 
+"Peru", 
+"Brazil" 
+] 
+}, 
+"Iceland": { 
+"continent": "Europe", 
+"id": "Iceland", 
+"neighbours": [ 
+"Greenland", 
+"Great Britain", 
+"Scandinavia" 
+] 
+}, 
+"Scandinavia": { 
+"continent": "Europe", 
+"id": "Scandinavia", 
+"neighbours": [ 
+"Ukraine", 
+"Northern Europe", 
+"Iceland", 
+"Great Britain" 
+] 
+}, 
+"Ukraine": { 
+"continent": "Europe", 
+"id": "Ukraine", 
+"neighbours": [ 
+"Scandinavia", 
+"Ural", 
+"Afghanistan", 
+"Middle East", 
+"Northern Europe", 
+"Southern Europe" 
+] 
+}, 
+"Great Britain": { 
+"continent": "Europe", 
+"id": "Great-Britain", 
+"neighbours": [ 
+"Iceland", 
+"Northern Europe", 
+"Western Europe", 
+"Scandinavia" 
+] 
+}, 
+"Northern Europe": { 
+"continent": "Europe", 
+"id": "Northern-Europe", 
+"neighbours": [ 
+"Scandinavia", 
+"Ukraine", 
+"Great Britain", 
+"Western Europe", 
+"Southern Europe" 
+] 
+}, 
+"Western Europe": { 
+"continent": "Europe", 
+"id": "Western-Europe", 
+"neighbours": [ 
+"Great Britain", 
+"Northern Europe", 
+"Southern Europe", 
+"North Africa" 
+] 
+}, 
+"Southern Europe": { 
+"continent": "Europe", 
+"id": "Southern-Europe", 
+"neighbours": [ 
+"Ukraine", 
+"Northern Europe", 
+"Western Europe", 
+"North Africa", 
+"Egypt", 
+"Middle East" 
+] 
+}, 
+"North Africa": { 
+"continent": "Africa", 
+"id": "North-Africa", 
+"neighbours": [ 
+"Brazil", 
+"Western Europe", 
+"Southern Europe", 
+"Egypt", 
+"Congo", 
+"East Africa" 
+] 
+}, 
+"Egypt": { 
+"continent": "Africa", 
+"id": "Egypt", 
+"neighbours": [ 
+"Southern Europe", 
+"North Africa", 
+"East Africa", 
+"Middle East" 
+] 
+}, 
+"Congo": { 
+"continent": "Africa", 
+"id": "Congo", 
+"neighbours": [ 
+"North Africa", 
+"East Africa", 
+"South Africa" 
+] 
+}, 
+"East Africa": { 
+"continent": "Africa", 
+"id": "East-Africa", 
+"neighbours": [ 
+"North Africa", 
+"Egypt", 
+"Congo", 
+"South Africa", 
+"Madagascar" 
+] 
+}, 
+"South Africa": { 
+"continent": "Africa", 
+"id": "South-Africa", 
+"neighbours": [ 
+"Congo", 
+"East Africa", 
+"Madagascar" 
+] 
+}, 
+"Madagascar": { 
+"continent": "Africa", 
+"id": "Madagascar", 
+"neighbours": [ 
+"East Africa", 
+"South Africa" 
+] 
+}, 
+"Siberia": { 
+"continent": "Asia", 
+"id": "Siberia", 
+"neighbours": [ 
+"Ural", 
+"China", 
+"Yakutsk", 
+"Irkutsk", 
+"Mongolia" 
+] 
+}, 
+"Ural": { 
+"continent": "Asia", 
+"id": "Ural", 
+"neighbours": [ 
+"Ukraine", 
+"Siberia", 
+"China", 
+"Afghanistan" 
+] 
+}, 
+"China": { 
+"continent": "Asia", 
+"id": "China", 
+"neighbours": [ 
+"Siberia", 
+"Ural", 
+"Afghanistan", 
+"India", 
+"Siam", 
+"Mongolia" 
+] 
+}, 
+"Afghanistan": { 
+"continent": "Asia", 
+"id": "Afghanistan", 
+"neighbours": [ 
+"Ukraine", 
+"Ural", 
+"China", 
+"Middle East", 
+"India" 
+] 
+}, 
+"Middle East": { 
+"continent": "Asia", 
+"id": "Middle-East", 
+"neighbours": [ 
+"Ukraine", 
+"Egypt", 
+"Afghanistan", 
+"India", 
+"Southern Europe" 
+] 
+}, 
+"India": { 
+"continent": "Asia", 
+"id": "India", 
+"neighbours": [ 
+"China", 
+"Afghanistan", 
+"Middle East", 
+"Siam" 
+] 
+}, 
+"Siam": { 
+"continent": "Asia", 
+"id": "Siam", 
+"neighbours": [ 
+"China", 
+"India", 
+"Indonesia" 
+] 
+}, 
+"Yakutsk": { 
+"continent": "Asia", 
+"id": "Yakutsk", 
+"neighbours": [ 
+"Siberia", 
+"Irkutsk", 
+"Kamchatka" 
+] 
+}, 
+"Irkutsk": { 
+"continent": "Asia", 
+"id": "Irkutsk", 
+"neighbours": [ 
+"Siberia", 
+"Yakutsk", 
+"Mongolia", 
+"Kamchatka" 
+] 
+}, 
+"Mongolia": { 
+"continent": "Asia", 
+"id": "Mongolia", 
+"neighbours": [ 
+"China", 
+"Irkutsk", 
+"Japan", 
+"Kamchatka", 
+"Siberia" 
+] 
+}, 
+"Japan": { 
+"continent": "Asia", 
+"id": "Japan", 
+"neighbours": [ 
+"Mongolia", 
+"Kamchatka" 
+] 
+}, 
+"Kamchatka": { 
+"continent": "Asia", 
+"id": "Kamchatka", 
+"neighbours": [ 
+"Alaska", 
+"Yakutsk", 
+"Irkutsk", 
+"Mongolia", 
+"Japan" 
+] 
+}, 
+"Indonesia": { 
+"continent": "Australia", 
+"id": "Indonesia", 
+"neighbours": [ 
+"Siam", 
+"Western Australia", 
+"New Guinea" 
+] 
+}, 
+"New Guinea": { 
+"continent": "Australia", 
+"id": "New-Guinea", 
+"neighbours": [ 
+"Indonesia", 
+"Western Australia", 
+"Eastern Australia" 
+] 
+}, 
+"Western Australia": { 
+"continent": "Australia", 
+"id": "Western-Australia", 
+"neighbours": [ 
+"Indonesia", 
+"New Guinea", 
+"Eastern Australia" 
+] 
+}, 
+"Eastern Australia": { 
+"continent": "Australia", 
+"id": "Eastern-Australia", 
+"neighbours": [ 
+"New Guinea", 
+"Western Australia" 
+] 
+} 
+}, 
+"continents": { 
+"North America": { 
+"id": "North-America", 
+"value": 5, 
+"countries": [ 
+"Alaska", 
+"North West Territory", 
+"Alberta", 
+"Western United States", 
+"Central America", 
+"Greenland", 
+"Ontario", 
+"Quebec", 
+"Eastern United States" 
+], 
+"border_countries": [ 
+"Alaska", 
+"Central America", 
+"Greenland" 
+] 
+}, 
+"South America": { 
+"id": "South-America", 
+"value": 2, 
+"countries": [ 
+"Venezuela", 
+"Peru", 
+"Brazil", 
+"Argentina" 
+], 
+"border_countries": [ 
+"Venezuela", 
+"Brazil" 
+] 
+}, 
+"Europe": { 
+"id": "Europe", 
+"value": 5, 
+"countries": [ 
+"Iceland", 
+"Scandinavia", 
+"Ukraine", 
+"Great Britain", 
+"Northern Europe", 
+"Western Europe", 
+"Southern Europe" 
+], 
+"border_countries": [ 
+"Iceland", 
+"Ukraine", 
+"Western Europe", 
+"Southern Europe" 
+] 
+}, 
+"Africa": { 
+"id": "Africa", 
+"value": 3, 
+"countries": [ 
+"North Africa", 
+"Egypt", 
+"Congo", 
+"East Africa", 
+"South Africa", 
+"Madagascar" 
+], 
+"border_countries": [ 
+"North Africa", 
+"Egypt" 
+] 
+}, 
+"Asia": { 
+"id": "Asia", 
+"value": 7, 
+"countries": [ 
+"Siberia", 
+"Ural", 
+"China", 
+"Afghanistan", 
+"Middle East", 
+"India", 
+"Siam", 
+"Yakutsk", 
+"Irkutsk", 
+"Mongolia", 
+"Japan", 
+"Kamchatka" 
+], 
+"border_countries": [ 
+"Ural", 
+"Afghanistan", 
+"Middle East", 
+"Siam", 
+"Kamchatka" 
+] 
+}, 
+"Australia": { 
+"id": "Australia", 
+"value": 2, 
+"countries": [ 
+"Indonesia", 
+"New Guinea", 
+"Western Australia", 
+"Eastern Australia" 
+], 
+"border_countries": [ 
+"Indonesia" 
+] 
+} 
+} 
+}

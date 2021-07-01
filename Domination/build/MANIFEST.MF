@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: Yura Mamyrin (yura@yura.net)
+Main-Class: net.yura.domination.engine.Risk
+Class-Path: lib/*

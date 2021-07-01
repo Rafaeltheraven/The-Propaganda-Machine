@@ -1,0 +1,127 @@
+; Yura Mamyrin
+; Risk Map
+
+; Risk TEG Map
+; Dimensions: 677 x 425 Pixels
+
+; Map made by Wolfgang Morawetz (wfx@users.sourceforge.net)
+
+name TEG Map
+
+[files]
+pic teg_pic.png
+map teg_map.gif
+crd risk.cards
+prv teg.jpg
+
+[continents]
+North-America 5 yellow
+South-America 2 red
+Europe 5 blue
+Africa 3 orange
+Asia 7 green
+Oceania 2 magenta
+
+[countries]
+1 Argentina 2 156 297
+2 Brazil 2 165 236
+3 Chile 2 133 282
+4 Colombia 2 118 208
+5 Peru 2 123 244
+6 Uruguay 2 172 270
+7 Mexico 1 81 147
+8 California 1 89 119
+9 Oregon 1 68 99
+10 New_York 1 112 98
+11 Alaska 1 47 45
+12 Yukon 1 79 58
+13 Canada 1 116 49
+14 Terranova 1 137 90
+15 Labrador 1 171 71
+16 Greenland 1 231 29
+17 Sahara 4 268 225
+18 Zaire 4 302 285
+19 Ethiopia 4 323 259
+20 Egypt 4 339 223
+21 Madagascar 4 369 316
+22 South_Africa 4 321 319
+23 Eastern_Australia 6 594 327
+24 Borneo 6 591 265
+25 Western_Australia 6 555 322
+26 Sumatra 6 538 271
+27 Spain 3 267 165
+28 France 3 288 140
+29 Germany 3 318 122
+30 Italy 3 318 163
+31 Poland 3 354 134
+32 Russia 3 379 98
+33 Sweden 3 333 51
+34 Great_Britain 3 279 96
+35 Iceland 3 272 55
+36 Arabia 5 426 189
+37 Israel 5 390 220
+38 Turkey 5 386 179
+39 India 5 474 214
+40 Malaysia 5 527 206
+41 Iran 5 439 127
+42 Gobi 5 493 142
+43 China 5 534 155
+44 Mongolia 5 491 107
+45 Siberia 5 514 71
+46 Aral 5 420 77
+47 Tartary 5 452 62
+48 Taymir 5 487 59
+49 Kamchatka 5 574 66
+50 Japan 5 596 142
+
+[borders]
+1 2 6 3 5
+2 17 6 1 5 4
+3 5 1 23
+4 2 5 7
+5 4 2 1 3
+6 2 1
+7 4 8
+8 10 7 9
+9 13 10 8 11 12
+10 14 16 8 9 13
+11 12 9 49
+12 13 9 11
+13 14 10 9 12
+14 15 10 13
+15 16 14
+16 35 10 15
+17 20 19 18 2 27
+18 19 21 22 17
+19 20 22 18 17
+20 31 38 37 21 19 17
+21 18 20
+22 19 18
+23 24 25 3 26
+24 40 23
+25 23
+26 39 23
+27 34 28 17
+28 29 30 27
+29 31 30 28 34
+30 29 28
+31 32 38 20 29
+32 46 41 38 31 33
+33 32 35
+34 29 27 35
+35 33 34 16
+36 38 37
+37 38 36 20
+38 32 41 36 37 31 20
+39 43 40 26 41
+40 43 24 39
+41 46 44 42 43 39 38 32
+42 44 43 41
+43 49 50 40 39 41 42 44 45
+44 45 43 42 41 46
+45 49 43 44 46 47 48
+46 47 45 44 41 32
+47 48 45 46
+48 45 47
+49 11 50 43 45
+50 43 49

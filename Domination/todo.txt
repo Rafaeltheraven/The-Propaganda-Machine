@@ -1,0 +1,158 @@
+Risk - Yura Mamyrin (yura@yura.net)
+
+TODO:
+
+    add a ranking for the registered players to maintain the competition flavour in the game.
+    if switching quickly between views in the MapStore, a thumb for a Category is the same as one of the maps, so it tries to download both, and save both to cache at the same time, causing a "[yura.net Cache] already has file" error
+    in online play when the defender is not online, it should roll there dice anyway if they have auto-defend
+    show continents army values in help window
+    Add Bluetooth videogame mode, where more then 1 phone can play against online people without internet who are only in Bluetooth range
+    add option to stop annihalation while it is in progress
+    in Desktop Domination online play should make a sound and flash the window if the window is not focused
+    add a notify sound for when its the player's turn?
+    Italian mode change "Also, if the player can have the combination of cards that correspond to territories' he actually employed, receives two armed more for each card. "
+    MapStore search should search local files too!
+    after you played a game -> when you start a new one, the adjustments will go lost (map, game type, cards type) It would be nice to keep the personal preferences
+    make everything that should be translated be translated - email translators
+    add Music - http://en.wikipedia.org/wiki/The_Planets#Media
+    add the new AI to the game from the masters project
+    make a map file a zip of jar file that holds all the map images and stuff
+    the undo button should be disabled at the start of the players go i.e. when there is nothing to undo..?
+    option to have the just-defeated country the default attacker for the next attack.
+    option to Attack untill "n" armies left / untill you only have "n" more armies than the defender;
+    add gpl info to all the java files
+
+Desktop:
+
+    find someone with a Apple Mac OS AppStore account to publish the game
+    for fixed cards mode, the dialog does not show how many armies you will get when you select the cards yo trade
+    in statistics add a number of cards graph, so you can see the number of other peoples cards for FlashGUI and SwingGUI
+    [Donate] button on main menu needs to say something else [vote/donate for next feature]
+    (Flash GUI) Although the position of the game board seems to be saved, it's size is not. Nor is the position of new game, choose game [& size] (which is inevitably too small), stats, cards, battle (select attacking dice), disposition (move armies to captured country).
+    make it say u can trade 3 different cards
+    MapEditor - when you zoom with the mouse wheel, it should center the map on where the mouse it
+    redo graph to use doubles instead of ints for scale
+    should let u stop a game if it is in replay mode
+    put in a pause finction, maybe when FlashGUI menu is open
+    ADD replay to FlashGUI, MAYBE
+    After a game is over over, I always wanted to see a time lapsed replay of the game... like a .gif made from still shots after each move so you could see how the game progressed.
+    MapEditor - beside a circle brush - it would be nice to have the alternative to draw lines also, because is easier then to follow borders. or draw shape?!
+    Checkbox to disable popup-window if others dices are rolling / Checkbox to enable a popup-window if its your turn
+    Show Error to user for: in any GUI when u save with the file name "con" it does not save, if text file is being saved, then in prints to the console - This is a resurved file name in windows, so u can not save a file
+    make the highlight fade in and out
+    3D circles on map
+
+Desktop Lobby:
+
+    the SwingGUI and FlashGUI do not have a resign button for online games (maybe could replace the save button, as there is no need to save in lobby mode)
+    Lobby GameSetup make the spinners force correct entry by 1 going down when another goes up
+    on Mac OS in the lobby GameSetup screen timeout wrapps onto second line, sometimes??
+
+Desktop P2P:
+
+    after everyone has left server after a game, u should be able to rejoin the same server
+    when people select a capital in network game other ppl can see when they select it in the console
+    should be able to join a game at any stage and it should be fast
+
+Android:
+
+    crash when About or Stat Activity is open and 'Dont Keep Activities' and 'No Backgtound processes' are selected, and we go from Domination to another activity and back
+    add option to change the language of the game
+    new icon?
+    fullscreen mode (including hiding the top action bar, the status bar and for nexus phones the navbar)
+    load big maps without OutOfMemErrors - http://developer.android.com/training/displaying-bitmaps/load-bitmap.html
+    ability to select number of armies to place on android (1 or 5 or 10 or 25 ...) or long press gives slider for number of troops to place
+    When bulding with ant, to extra jars for grasshopper are not included
+    on ldpi "Start Game" button still not visable
+    add "custom player" button and dialog to GameSetup screen
+    at least have a way of the player to set there own color
+    some way to del saved games when they are not needed any more
+
+Android Donate to Feature:
+
+    add pay for feature screen to domination
+    [Donate] button on main menu needs to say something else [vote/donate for next feature]
+
+BlackBerry:
+
+    the BB build is a debug build, it should be a release build
+    i still dont have push token, and even though i've filled in the form many time online, they still do not send it to me
+
+Website/General:
+
+    add pay for feature to website
+    bitcoin, where are they???
+
+New Game Option Ideas:
+
+    badges and reward system - for every number of wins you move up from rookie to general and 5 star general etc
+    15 army limit per country
+    unlimited reinforce moves
+    defender can retreat to an adjacent country
+    In army displacement phase after the battle phase, you can shift your troups how you want. But you con only shift troups between countries wich have a connection. Either they lies direct side by side or the countries have a contact over own land.
+    option: If a new round starts each player who holds his own capital get's 1 or x additional armie(s) -> (fix placed at the capital) If you hold a capital of another player you get additional armies too -> (fix placed at the capital)
+    Connected Empire Bonus Each player receives a extra bonus of armies equal to largest connected empire divided by 3.
+    a limit to reinforcements for each territory Max reinforcement armies for each territory, every round, is equal to 2 plus 1 for each friend neighbour state a player has. Example: if I have South Africa, Madagascar and Congo (isolated by enemy territories) I can put max 4 (2+2) reinforcement armies in South Africa, 3 (2+1) in Congo and 3 (2+1) in Madagascar.
+    In the same round, from every territory I can attack only one single enemy territory. I can't continue to attack from the territory just conquered. I can attack from others territories of mine. Example: from the Ural I attack and conquer Siberia, but from here I can't continue to attack China or others territories (i.e. Yakutsk). Obviously I can attack China from others territories of mine (i.e. from Mongolia).
+    If a opponent has lost his last country, the attacker don't get the cards from the defeded player. The released cards will be removed from the game
+    After winning a battle you can shift only three armies into the conquered land. In this way you can attack the next land with only two armies. This decrease the distributionvelocity.
+    [checkbox] only make 3 attacks per turn
+    Same time Risk - inovation (maybe)
+    anytime card trading - a player can trade cards if the player still has armies to place at the start of the turn.
+    If the task, you have to fulfill, is coincidentally solved by another player, then you had luck and nevertheless won
+
+    -distribute extra units option - not really needed, but other risk has it
+    Naeem - in 2 player mode let the player put 2 armies down at a time
+    -let the first player not be random
+    -let the number of troops for a cards trade not increase or be fixed or be none
+    -let u NOT get the captured cards
+    -do not limmmit supply lines/no supply lines
+    -support missions were u need to conquer and hold countries
+    -optimise defending dice by not throwing many if the attacker has all 6
+    -wait untill next go to win mission risk
+    put in some sort of campagn system where u get through diferent maps with diferent set up problems that get harder and harder.
+    nutral player gets reinforcments
+    a option that will restrict you from rolling 2 dice if you have only 2 armies in that country (you must have 3 or more to roll 2 when defending)
+    i saw that in some risk rules you get reinforcements as seen on your card (e.g. for 3 artillery you get 3 artillery units)
+
+    Easter egg - cheat for good dice
+    Easter egg - when u select sertain names - things happen
+    Easter egg - funny cards - NO TRADE CARD
+
+Command Line:
+
+    add command line options like "Domination.jar -server"
+    the console prompt is not getting the text for it from the translation file
+    should let you use country names in the console
+    make it not case sensitive in the console
+    Add Stats to the text console
+    add a 'history' command like in unix
+    somehow show trade cap and when u MUST trade - "New player selected: ELMEEEEEEEEER3. You have +number_of_cards+ cards, you must trade until you possess under 5 cards"
+    Rolled dice... 1 armies defeated, 1 armies lost. 13 armies remain on +defendercountry 23 armies available +attackercountry+ for attack
+
+Help:
+
+    Help needs to be Finished
+    update help files with the crads fixed thingy
+    Add network commands to help in commands section and add "info" command
+    Help should use css
+
+Known Bugs:
+
+    SWING GTK BUG - move armies to captured country bar is too high in gtk
+    SWING GTK BUG - in linux in gtk cards box text is abit off
+    SWING GTK BUG - in linux in gtk the text boxes and scroll boxes are white instead of gray
+    SWING GTK BUG - in-game text boxes dont work with gtk theme
+
+    SWING GUI BUG - when moving lots and lots of armies the slidebar numbers overlap
+    SWING GUI BUG - for cards that have countries with very long names they go off the card and are unclear
+    SWING GUI BUG - make the move dialog not a dialog, and the move text boxes not what they are now, in SwingGUI
+
+    FLASH GUI BUG - one of the countries in the uk map has a very very long name, overlaps in the card (not quite sure what to do about it); maybe put "..." after the first few words
+    FLASH GUI BUG - Fonts in Linux are way too big in some windows
+    FLASH GUI BUG - Windows sometimes open in the background (dont come forward after opening)
+    FLASH GUI BUG - when a name is too long it pushes the text of the screen
+
+    COMMAND LINE BUG - startserver print out is a bit odd, and other print outs during network game
+    COMMAND LINE BUG - noInput does nothing
+

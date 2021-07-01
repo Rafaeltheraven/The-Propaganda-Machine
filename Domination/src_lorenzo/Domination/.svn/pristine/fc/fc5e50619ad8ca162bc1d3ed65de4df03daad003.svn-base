@@ -1,0 +1,18 @@
+#Saved with Risk Language Plugin
+#By Yura Mamyrin (yura@yura.net)
+#Risk site: http://jrisk.sf.net/
+#Wed Sep 20 00:14:28 BST 2006
+0-0-0-1-4-0=Dob\u00fdte kontinety Severn\u00ed Amerika a Afrika.
+0-0-0-1-6-0=Dob\u00fdte kontinety Severn\u00ed Amerika a Australie.
+0-0-0-3-2-*=Dob\u00fdte kontinety Evropa, Ji\u017en\u00ed Amerika a t\u0159et\u00ed kontinent dle va\u0161eho v\u00fdb\u011bru.
+0-0-0-3-6-*=Dob\u00fdte kontinety Evropa, Australie a t\u0159et\u00ed kontinent dle va\u0161eho v\u00fdb\u011bru.
+0-0-0-5-2-0=Dob\u00fdte kontinety Asie a Ji\u017en\u00ed Amerika.
+0-0-0-5-4-0=Dob\u00fdte kontinety Asie a Afrika.
+0-18-2-0-0-0=Z\u00edskejte 18 oblast\u00ed dle va\u0161eho v\u00fdb\u011bhu, ka\u017edou obsa\u010fte minimaln\u011b dv\u011bmi vojsky.
+0-24-1-0-0-0=Z\u00edskejte 24 oblast\u00ed dle va\u0161eho v\u00fdb\u011bhu, ka\u017edou obsa\u010fte minimaln\u011b jedn\u00edm vojskem.
+1-24-1-0-0-0=Zni\u010dte v\u0161echny {PLAYER1}'s TROOPS. Pokud jsou vojska va\u0161e, nebo vojska byla ji\u017e zni\u010dena, va\u0161e mise je\: Okupovat 24 oblas\u00ed.
+2-24-1-0-0-0=Zni\u010dte v\u0161echny {PLAYER2}'s TROOPS. Pokud jsou vojska va\u0161e, nebo vojska byla ji\u017e zni\u010dena, va\u0161e mise je\: Okupovat 24 oblas\u00ed.
+3-24-1-0-0-0=Zni\u010dte v\u0161echny {PLAYER3}'s TROOPS. Pokud jsou vojska va\u0161e, nebo vojska byla ji\u017e zni\u010dena, va\u0161e mise je\: Okupovat 24 oblas\u00ed.
+4-24-1-0-0-0=Zni\u010dte v\u0161echny {PLAYER4}'s TROOPS. Pokud jsou vojska va\u0161e, nebo vojska byla ji\u017e zni\u010dena, va\u0161e mise je\: Okupovat 24 oblas\u00ed.
+5-24-1-0-0-0=Zni\u010dte v\u0161echny {PLAYER5}'s TROOPS. Pokud jsou vojska va\u0161e, nebo vojska byla ji\u017e zni\u010dena, va\u0161e mise je\: Okupovat 24 oblas\u00ed.
+6-24-1-0-0-0=Zni\u010dte v\u0161echny {PLAYER6}'s TROOPS. Pokud jsou vojska va\u0161e, nebo vojska byla ji\u017e zni\u010dena, va\u0161e mise je\: Okupovat 24 oblas\u00ed.

@@ -1,0 +1,114 @@
+; Yura Mamyrin
+; Risk Map
+
+; Risk World Game Map
+; Dimensions: 677 x 425 Pixels
+
+; Made by Christian Domsch
+;         Sebastian Kirsch
+;         Andreas Habel
+;         Dirk Engberg
+
+name World Map
+
+[files]
+pic world_pic.jpg
+map world_map.gif
+crd risk.cards
+prv world.jpg
+
+[continents]
+North-America 5 yellow
+South-America 2 red
+Europe 5 blue
+Africa 3 orange
+Asia 7 green
+Australia 2 magenta
+
+[countries]
+1 Alaska 1 57 82
+2 North-West-Territory 1 126 86
+3 Alberta 1 123 132
+4 Western-United-States 1 135 169
+5 Central-America 1 152 230
+6 Greenland 1 285 51
+7 Ontario 1 175 131
+8 Quebec 1 221 118
+9 Eastern-United-States 1 185 187
+10 Venezuela 2 223 281
+11 Peru 2 217 358
+12 Brazil 2 257 336
+13 Argentina 2 228 434
+14 Iceland 3 348 79
+15 Scandinavia 3 421 82
+16 Ukraine 3 458 117
+17 Great-Britain 3 358 114
+18 Northern-Europe 3 402 125
+19 Western-Europe 3 366 164
+20 Southern-Europe 3 413 157
+21 North-Africa 4 366 235
+22 Egypt 4 428 212
+23 Congo 4 413 296
+24 East-Africa 4 450 281
+25 South-Africa 4 426 361
+26 Madagascar 4 488 366
+27 Siberia 5 597 85
+28 Ural 5 537 97
+29 China 5 596 172
+30 Afghanistan 5 521 164
+31 Middle-East 5 476 195
+32 India 5 551 213
+33 Siam 5 597 235
+34 Yakutsk 5 640 79
+35 Irkutsk 5 639 121
+36 Mongolia 5 617 134
+37 Japan 5 700 171
+38 Kamchatka 5 716 81
+39 Indonesia 6 632 299
+40 New-Guinea 6 696 307
+41 Western-Australia 6 645 381
+42 Eastern-Australia 6 697 391
+
+[borders]
+1 2 3 38
+2 1 3 7 6
+3 1 2 7 4
+4 3 7 5 9
+5 4 9 10
+6 2 7 8 14
+7 2 3 4 6 8 9
+8 6 7 9
+9 4 5 7 8
+10 5 11 12
+11 10 12 13
+12 10 11 13 21
+13 11 12
+14 6 17 15
+15 16 18 14 17
+16 15 28 30 31 18 20
+17 14 18 19 15
+18 15 16 17 19 20
+19 17 18 20 21
+20 16 18 19 21 22 31
+21 12 19 20 22 23 24
+22 20 21 24 31
+23 21 24 25
+24 21 22 23 25 26
+25 23 24 26
+26 24 25
+27 28 29 34 35 36
+28 16 27 29 30
+29 27 28 30 32 33 36
+30 16 28 29 31 32
+31 16 22 30 32 20
+32 29 30 31 33
+33 29 32 39
+34 27 35 38
+35 27 34 36 38
+36 29 35 37 38 27
+37 36 38
+38 1 34 35 36 37
+39 33 41 40
+40 39 41 42
+41 39 40 42
+42 40 41

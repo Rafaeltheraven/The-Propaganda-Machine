@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TabHost android:id="@android:id/tabhost" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="0dp">
+	      <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">  
+	           <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />  
+	           <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	                <!-- 
+	                <WebView android:id="@+id/layoutTab3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			-->
+	           </FrameLayout>  
+	      </LinearLayout>  
+	</TabHost>  
+
+	<com.google.ads.AdView
+	        android:id="@+id/adView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        ads:adSize="BANNER"
+	        ads:adUnitId="ca-app-pub-4647495416237114/9986796868"
+	        ads:loadAdOnCreate="true"
+	        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+
+</LinearLayout>

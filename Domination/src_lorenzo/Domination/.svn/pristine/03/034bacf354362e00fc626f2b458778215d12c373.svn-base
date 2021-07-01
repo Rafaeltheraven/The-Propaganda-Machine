@@ -1,0 +1,15 @@
+<launch4jConfig>
+  <headerType>gui</headerType>
+
+  <jar>Domination.jar</jar>
+  <dontWrapJar>true</dontWrapJar>
+
+  <outfile>../../res_swing/scripts/Domination.exe</outfile>
+  <errTitle>SimpleApp</errTitle>
+  <chdir>.</chdir>
+  <customProcName>true</customProcName>
+  <icon>../../res_swing/icons/icon.ico</icon>
+  <jre>
+    <minVersion>1.5.0</minVersion>
+  </jre>
+</launch4jConfig>

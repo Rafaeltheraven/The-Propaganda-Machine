@@ -1,0 +1,12 @@
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <jar>../dist/@game.name@_install_@game.version@.jar</jar>
+  <outfile>../dist/@game.name@_install_@game.version@.exe</outfile>
+  <errTitle>SimpleApp</errTitle>
+  <chdir>.</chdir>
+  <customProcName>true</customProcName>
+  <icon>../res_swing/icons/icon.ico</icon>
+  <jre>
+    <minVersion>1.5.0</minVersion>
+  </jre>
+</launch4jConfig>

@@ -1,0 +1,10 @@
+//include ':..:AndroidME'
+// can not do as above as does not build on Windows http://b.android.com/79505
+// example: https://android.googlesource.com/platform/tools/buildSrc/+/master/base/settings.gradle
+
+include ':AndroidME'
+project(':AndroidME').projectDir = new File(rootDir.getParentFile(), 'AndroidME')
+
+
+// this will only be supported when Android Studio adds support for gradle 3
+//includeBuild '../AndroidME'

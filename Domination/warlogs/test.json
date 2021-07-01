@@ -1,0 +1,8758 @@
+{
+   "players":{
+      "smartboy":{
+         "capital":"",
+         "mission":"Conquer the world by occupying every territory on the board, thus eliminating all your opponents.",
+         "intial_countries":[
+            "Indonesia",
+            "Central America",
+            "Argentina",
+            "Madagascar",
+            "Japan",
+            "Southern Europe",
+            "Western United States",
+            "Eastern United States",
+            "Peru",
+            "Venezuela",
+            "Egypt",
+            "Middle East",
+            "Siam",
+            "India",
+            "Afghanistan",
+            "China",
+            "Ukraine",
+            "East Africa",
+            "Northern Europe",
+            "Western Europe",
+            "Great Britain"
+         
+]
+      
+},
+      "dumbo":{
+         "capital":"",
+         "mission":"Conquer the world by occupying every territory on the board, thus eliminating all your opponents.",
+         "intial_countries":[
+            "Eastern Australia",
+            "Western Australia",
+            "New Guinea",
+            "Alaska",
+            "Quebec",
+            "Greenland",
+            "North West Territory",
+            "Ontario",
+            "Alberta",
+            "Brazil",
+            "Congo",
+            "North Africa",
+            "Ural",
+            "Yakutsk",
+            "Siberia",
+            "Irkutsk",
+            "Kamchatka",
+            "Mongolia",
+            "South Africa",
+            "Iceland",
+            "Scandinavia"
+         
+]
+      
+}
+   
+},
+   "events":[
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Kamchatka",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"North Africa",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"North Africa",
+         "unit_before":4,
+         "unit_after":5,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Ural",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"South Africa",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"South Africa",
+         "country_defend":"Madagascar",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"South Africa",
+         "dest":"Madagascar",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Kamchatka",
+         "dest":"Japan",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Brazil",
+         "country_defend":"Peru",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Brazil",
+         "dest":"Peru",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"North Africa",
+         "country_defend":"Egypt",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"North Africa",
+         "dest":"Egypt",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Afghanistan",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Afghanistan",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Ural",
+         "dest":"Afghanistan",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Egypt",
+         "country_defend":"Middle East",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Egypt",
+         "dest":"Middle East",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Japan",
+         "dest":"Mongolia",
+         "init_orig":3,
+         "init_dest":5,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Venezuela",
+         "unit_before":10,
+         "unit_after":15,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Venezuela",
+         "country_defend":"Brazil",
+         "init_offend":15,
+         "init_defend":1,
+         "after_offend":15,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Venezuela",
+         "dest":"Brazil",
+         "init_orig":15,
+         "init_dest":0,
+         "amount":14
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Argentina",
+         "country_defend":"Peru",
+         "init_offend":9,
+         "init_defend":5,
+         "after_offend":9,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            5,
+            0
+         
+],
+         "rolls_defend":[
+            1,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Argentina",
+         "country_defend":"Peru",
+         "init_offend":9,
+         "init_defend":3,
+         "after_offend":9,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            3,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Argentina",
+         "country_defend":"Peru",
+         "init_offend":9,
+         "init_defend":1,
+         "after_offend":9,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Argentina",
+         "dest":"Peru",
+         "init_orig":9,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Brazil",
+         "country_defend":"North Africa",
+         "init_offend":14,
+         "init_defend":1,
+         "after_offend":14,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Brazil",
+         "dest":"North Africa",
+         "init_orig":14,
+         "init_dest":0,
+         "amount":13
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Congo",
+         "init_offend":13,
+         "init_defend":1,
+         "after_offend":13,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"Congo",
+         "init_orig":13,
+         "init_dest":0,
+         "amount":8
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Congo",
+         "country_defend":"South Africa",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Congo",
+         "country_defend":"South Africa",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Congo",
+         "dest":"South Africa",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Egypt",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"Egypt",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"South Africa",
+         "country_defend":"Madagascar",
+         "init_offend":6,
+         "init_defend":3,
+         "after_offend":4,
+         "after_defend":3,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"South Africa",
+         "country_defend":"Madagascar",
+         "init_offend":4,
+         "init_defend":3,
+         "after_offend":3,
+         "after_defend":2,
+         "rolls_offend":[
+            5,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"China",
+         "country_defend":"Ural",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Argentina",
+         "dest":"Brazil",
+         "init_orig":6,
+         "init_dest":1,
+         "amount":4
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Madagascar",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Iceland",
+         "unit_before":1,
+         "unit_after":4,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Iceland",
+         "unit_before":4,
+         "unit_after":5,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Middle East",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Mongolia",
+         "country_defend":"China",
+         "init_offend":7,
+         "init_defend":2,
+         "after_offend":5,
+         "after_defend":2,
+         "rolls_offend":[
+            2,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Mongolia",
+         "country_defend":"China",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Mongolia",
+         "country_defend":"China",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Mongolia",
+         "country_defend":"China",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Middle East",
+         "country_defend":"India",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Middle East",
+         "dest":"India",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Iceland",
+         "country_defend":"Great Britain",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            1,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Iceland",
+         "country_defend":"Great Britain",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Iceland",
+         "country_defend":"Great Britain",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Iceland",
+         "dest":"Great Britain",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Eastern United States",
+         "unit_before":1,
+         "unit_after":8,
+         "amount":7
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Egypt",
+         "unit_before":4,
+         "unit_after":5,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Quebec",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":8,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Eastern United States",
+         "dest":"Quebec",
+         "init_orig":8,
+         "init_dest":0,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Ontario",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Eastern United States",
+         "dest":"Ontario",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Quebec",
+         "country_defend":"Greenland",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            3
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Quebec",
+         "dest":"Greenland",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"North West Territory",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Greenland",
+         "dest":"North West Territory",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North West Territory",
+         "country_defend":"Alberta",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North West Territory",
+         "dest":"Alberta",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Egypt",
+         "dest":"Southern Europe",
+         "init_orig":5,
+         "init_dest":1,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Madagascar",
+         "unit_before":4,
+         "unit_after":10,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Madagascar",
+         "country_defend":"South Africa",
+         "init_offend":10,
+         "init_defend":3,
+         "after_offend":10,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            3,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Madagascar",
+         "country_defend":"South Africa",
+         "init_offend":10,
+         "init_defend":1,
+         "after_offend":10,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Madagascar",
+         "dest":"South Africa",
+         "init_orig":10,
+         "init_dest":0,
+         "amount":9
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"South Africa",
+         "country_defend":"East Africa",
+         "init_offend":9,
+         "init_defend":1,
+         "after_offend":9,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"South Africa",
+         "dest":"East Africa",
+         "init_orig":9,
+         "init_dest":0,
+         "amount":8
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Egypt",
+         "init_offend":8,
+         "init_defend":4,
+         "after_offend":7,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Egypt",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":3,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Egypt",
+         "init_offend":5,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            3,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Egypt",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Egypt",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"East Africa",
+         "dest":"Egypt",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Alberta",
+         "unit_before":2,
+         "unit_after":5,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Indonesia",
+         "unit_before":1,
+         "unit_after":7,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alberta",
+         "country_defend":"Alaska",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alberta",
+         "country_defend":"Alaska",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Alberta",
+         "dest":"Alaska",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"Western Australia",
+         "init_offend":7,
+         "init_defend":2,
+         "after_offend":6,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"Western Australia",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Indonesia",
+         "dest":"Western Australia",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Eastern Australia",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Eastern Australia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Western Australia",
+         "dest":"Eastern Australia",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern Australia",
+         "country_defend":"New Guinea",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Southern Europe",
+         "dest":"North Africa",
+         "init_orig":2,
+         "init_dest":1,
+         "amount":1
+      
+},
+      {
+         "type":4,
+         "player":"dumbo",
+         "cards":[
+            "Cannon - Middle East",
+            "Cavalry - Northern Europe",
+            "Infantry - Madagascar"
+         
+],
+         "amount":4
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Ural",
+         "unit_before":1,
+         "unit_after":4,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Afghanistan",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"New Guinea",
+         "unit_before":1,
+         "unit_after":4,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Scandinavia",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"New Guinea",
+         "country_defend":"Indonesia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"New Guinea",
+         "dest":"Indonesia",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Ukraine",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Ural",
+         "dest":"Ukraine",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Afghanistan",
+         "country_defend":"China",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Afghanistan",
+         "dest":"China",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Scandinavia",
+         "country_defend":"Northern Europe",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Scandinavia",
+         "dest":"Northern Europe",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Mongolia",
+         "dest":"China",
+         "init_orig":2,
+         "init_dest":3,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Eastern Australia",
+         "unit_before":2,
+         "unit_after":11,
+         "amount":9
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":2,
+         "unit_after":5,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Alaska",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern Australia",
+         "country_defend":"New Guinea",
+         "init_offend":11,
+         "init_defend":1,
+         "after_offend":11,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Eastern Australia",
+         "dest":"New Guinea",
+         "init_orig":11,
+         "init_dest":0,
+         "amount":10
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"New Guinea",
+         "country_defend":"Indonesia",
+         "init_offend":10,
+         "init_defend":3,
+         "after_offend":9,
+         "after_defend":2,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"New Guinea",
+         "country_defend":"Indonesia",
+         "init_offend":9,
+         "init_defend":2,
+         "after_offend":9,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            0,
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"New Guinea",
+         "dest":"Indonesia",
+         "init_orig":9,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Indonesia",
+         "dest":"Siam",
+         "init_orig":3,
+         "init_dest":1,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Kamchatka",
+         "unit_before":1,
+         "unit_after":7,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Alaska",
+         "init_offend":7,
+         "init_defend":4,
+         "after_offend":6,
+         "after_defend":3,
+         "rolls_offend":[
+            3,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Alaska",
+         "init_offend":6,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":2,
+         "rolls_offend":[
+            2,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            2,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Alaska",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Alaska",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Alaska",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Kamchatka",
+         "dest":"Alaska",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Siberia",
+         "dest":"China",
+         "init_orig":3,
+         "init_dest":4,
+         "amount":2
+      
+},
+      {
+         "type":4,
+         "player":"smartboy",
+         "cards":[
+            "Cannon - South Africa",
+            "Cavalry - Indonesia",
+            "Infantry - Irkutsk"
+         
+],
+         "amount":6
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":1,
+         "unit_after":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Greenland",
+         "unit_before":1,
+         "unit_after":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":4,
+         "unit_after":6,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":6,
+         "unit_after":8,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":8,
+         "unit_after":10,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":10,
+         "unit_after":12,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":12,
+         "unit_after":14,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":5,
+         "unit_after":8,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"East Africa",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"East Africa",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":1,
+         "rolls_offend":[
+            1,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"East Africa",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"East Africa",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"East Africa",
+         "country_defend":"South Africa",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"East Africa",
+         "dest":"North Africa",
+         "init_orig":2,
+         "init_dest":3,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Middle East",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Egypt",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"China",
+         "unit_before":6,
+         "unit_after":7,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Great Britain",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Madagascar",
+         "unit_before":1,
+         "unit_after":2,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"China",
+         "country_defend":"Siam",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            3,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"China",
+         "country_defend":"Siam",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"China",
+         "dest":"Siam",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Middle East",
+         "country_defend":"Southern Europe",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Middle East",
+         "dest":"Southern Europe",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":6,
+         "init_defend":3,
+         "after_offend":6,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            1,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Siam",
+         "dest":"Indonesia",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Indonesia",
+         "country_defend":"Western Australia",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Indonesia",
+         "dest":"Western Australia",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Egypt",
+         "country_defend":"East Africa",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Egypt",
+         "dest":"East Africa",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Great Britain",
+         "country_defend":"Western Europe",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Great Britain",
+         "dest":"Western Europe",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Western Australia",
+         "dest":"Indonesia",
+         "init_orig":3,
+         "init_dest":2,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":4,
+         "unit_after":8,
+         "amount":4
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Greenland",
+         "unit_before":2,
+         "unit_after":5,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Egypt",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Egypt",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"Egypt",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Egypt",
+         "country_defend":"Middle East",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Egypt",
+         "dest":"Middle East",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Greenland",
+         "dest":"Iceland",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"New Guinea",
+         "country_defend":"Western Australia",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"New Guinea",
+         "dest":"Western Australia",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":5,
+         "init_defend":4,
+         "after_offend":3,
+         "after_defend":4,
+         "rolls_offend":[
+            4,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Brazil",
+         "dest":"North Africa",
+         "init_orig":5,
+         "init_dest":4,
+         "amount":4
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Ukraine",
+         "unit_before":3,
+         "unit_after":5,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"East Africa",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Great Britain",
+         "unit_before":1,
+         "unit_after":5,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Indonesia",
+         "country_defend":"New Guinea",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            1,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Indonesia",
+         "country_defend":"New Guinea",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Indonesia",
+         "dest":"New Guinea",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ukraine",
+         "country_defend":"Middle East",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ukraine",
+         "country_defend":"Middle East",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ukraine",
+         "country_defend":"Middle East",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Congo",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"East Africa",
+         "country_defend":"Congo",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"East Africa",
+         "dest":"Congo",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Great Britain",
+         "country_defend":"Iceland",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Great Britain",
+         "country_defend":"Iceland",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Great Britain",
+         "country_defend":"Iceland",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Great Britain",
+         "dest":"Iceland",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Northern Europe",
+         "dest":"Ukraine",
+         "init_orig":3,
+         "init_dest":2,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Greenland",
+         "unit_before":1,
+         "unit_after":6,
+         "amount":5
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Western Australia",
+         "unit_before":3,
+         "unit_after":5,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":2,
+         "rolls_offend":[
+            2,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":4,
+         "init_defend":2,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            4
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Greenland",
+         "dest":"Iceland",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            4
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Western Australia",
+         "dest":"Indonesia",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"New Guinea",
+         "init_offend":4,
+         "init_defend":2,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"New Guinea",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Indonesia",
+         "dest":"New Guinea",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"East Africa",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":8,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"East Africa",
+         "init_orig":8,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"East Africa",
+         "country_defend":"South Africa",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"East Africa",
+         "dest":"South Africa",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Congo",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            3,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Congo",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"Congo",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"New Guinea",
+         "dest":"Indonesia",
+         "init_orig":2,
+         "init_dest":1,
+         "amount":1
+      
+},
+      {
+         "type":4,
+         "player":"dumbo",
+         "cards":[
+            "Infantry - Alberta",
+            "Infantry - Egypt",
+            "Infantry - Eastern Australia"
+         
+],
+         "amount":8
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Alaska",
+         "unit_before":2,
+         "unit_after":16,
+         "amount":14
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ukraine",
+         "country_defend":"Middle East",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Ukraine",
+         "dest":"Middle East",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"India",
+         "dest":"Siam",
+         "init_orig":3,
+         "init_dest":1,
+         "amount":2
+      
+},
+      {
+         "type":4,
+         "player":"smartboy",
+         "cards":[
+            "Cannon - North West Territory",
+            "Cavalry - Congo",
+            "Infantry - Western Europe"
+         
+],
+         "amount":10
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Egypt",
+         "unit_before":1,
+         "unit_after":8,
+         "amount":7
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":1,
+         "unit_after":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":2,
+         "unit_after":3,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":3,
+         "unit_after":8,
+         "amount":5
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":8,
+         "unit_after":13,
+         "amount":5
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"North Africa",
+         "unit_before":13,
+         "unit_after":15,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Southern Europe",
+         "init_offend":15,
+         "init_defend":3,
+         "after_offend":13,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Southern Europe",
+         "init_offend":13,
+         "init_defend":3,
+         "after_offend":11,
+         "after_defend":3,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Egypt",
+         "country_defend":"Middle East",
+         "init_offend":8,
+         "init_defend":3,
+         "after_offend":8,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            3,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Egypt",
+         "country_defend":"Middle East",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Egypt",
+         "country_defend":"Middle East",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Egypt",
+         "dest":"Middle East",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Ukraine",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Ukraine",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Middle East",
+         "dest":"Ukraine",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Ukraine",
+         "country_defend":"Scandinavia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Ukraine",
+         "country_defend":"Scandinavia",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Ukraine",
+         "dest":"Scandinavia",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Southern Europe",
+         "init_offend":11,
+         "init_defend":3,
+         "after_offend":10,
+         "after_defend":2,
+         "rolls_offend":[
+            4,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            3,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Southern Europe",
+         "init_offend":10,
+         "init_defend":2,
+         "after_offend":10,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            1,
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"Southern Europe",
+         "init_orig":10,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Southern Europe",
+         "country_defend":"Northern Europe",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Western Europe",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":6,
+         "after_defend":2,
+         "rolls_offend":[
+            5,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Western Europe",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Western Europe",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"North Africa",
+         "country_defend":"Western Europe",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"North Africa",
+         "dest":"Western Europe",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Europe",
+         "country_defend":"Northern Europe",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            4
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Scandinavia",
+         "dest":"Iceland",
+         "init_orig":2,
+         "init_dest":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Alaska",
+         "unit_before":16,
+         "unit_after":21,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"North West Territory",
+         "init_offend":21,
+         "init_defend":3,
+         "after_offend":21,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            2,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"North West Territory",
+         "init_offend":21,
+         "init_defend":1,
+         "after_offend":21,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Alaska",
+         "dest":"North West Territory",
+         "init_orig":21,
+         "init_dest":0,
+         "amount":20
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"North West Territory",
+         "country_defend":"Ontario",
+         "init_offend":20,
+         "init_defend":2,
+         "after_offend":18,
+         "after_defend":2,
+         "rolls_offend":[
+            1,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            3,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"North West Territory",
+         "country_defend":"Ontario",
+         "init_offend":18,
+         "init_defend":2,
+         "after_offend":18,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            4
+         
+],
+         "rolls_defend":[
+            3,
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"North West Territory",
+         "dest":"Ontario",
+         "init_orig":18,
+         "init_dest":0,
+         "amount":17
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ontario",
+         "country_defend":"Eastern United States",
+         "init_offend":17,
+         "init_defend":1,
+         "after_offend":16,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ontario",
+         "country_defend":"Eastern United States",
+         "init_offend":16,
+         "init_defend":1,
+         "after_offend":16,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Ontario",
+         "dest":"Eastern United States",
+         "init_orig":16,
+         "init_dest":0,
+         "amount":15
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"South Africa",
+         "unit_before":2,
+         "unit_after":6,
+         "amount":4
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Ukraine",
+         "unit_before":1,
+         "unit_after":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Iceland",
+         "unit_before":3,
+         "unit_after":6,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Iceland",
+         "unit_before":6,
+         "unit_after":9,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Central America",
+         "unit_before":14,
+         "unit_after":15,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"South Africa",
+         "country_defend":"Madagascar",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"South Africa",
+         "country_defend":"Madagascar",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"South Africa",
+         "dest":"Madagascar",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Iceland",
+         "country_defend":"Great Britain",
+         "init_offend":9,
+         "init_defend":1,
+         "after_offend":9,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Iceland",
+         "dest":"Great Britain",
+         "init_orig":9,
+         "init_dest":0,
+         "amount":8
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Great Britain",
+         "country_defend":"Northern Europe",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Great Britain",
+         "country_defend":"Northern Europe",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Great Britain",
+         "dest":"Northern Europe",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":15,
+         "init_defend":15,
+         "after_offend":13,
+         "after_defend":15,
+         "rolls_offend":[
+            3,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":13,
+         "init_defend":15,
+         "after_offend":12,
+         "after_defend":14,
+         "rolls_offend":[
+            4,
+            4,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":12,
+         "init_defend":14,
+         "after_offend":10,
+         "after_defend":14,
+         "rolls_offend":[
+            4,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":10,
+         "init_defend":14,
+         "after_offend":9,
+         "after_defend":13,
+         "rolls_offend":[
+            5,
+            5,
+            4
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":9,
+         "init_defend":13,
+         "after_offend":7,
+         "after_defend":13,
+         "rolls_offend":[
+            2,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            3,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":7,
+         "init_defend":13,
+         "after_offend":7,
+         "after_defend":11,
+         "rolls_offend":[
+            5,
+            4,
+            0
+         
+],
+         "rolls_defend":[
+            1,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":7,
+         "init_defend":11,
+         "after_offend":7,
+         "after_defend":9,
+         "rolls_offend":[
+            4,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            3,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":7,
+         "init_defend":9,
+         "after_offend":7,
+         "after_defend":7,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            1,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":7,
+         "init_defend":7,
+         "after_offend":7,
+         "after_defend":5,
+         "rolls_offend":[
+            5,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            2,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":7,
+         "init_defend":5,
+         "after_offend":6,
+         "after_defend":4,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            3,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":6,
+         "init_defend":4,
+         "after_offend":6,
+         "after_defend":2,
+         "rolls_offend":[
+            5,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            0,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":2,
+         "rolls_offend":[
+            5,
+            5,
+            4
+         
+],
+         "rolls_defend":[
+            5,
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Eastern United States",
+         "init_offend":4,
+         "init_defend":2,
+         "after_offend":2,
+         "after_defend":2,
+         "rolls_offend":[
+            4,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Northern Europe",
+         "dest":"Ukraine",
+         "init_orig":3,
+         "init_dest":2,
+         "amount":2
+      
+},
+      {
+         "type":4,
+         "player":"dumbo",
+         "cards":[
+            "Cannon - Siam",
+            "Cavalry - Ural",
+            "Infantry - Japan"
+         
+],
+         "amount":12
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Alaska",
+         "unit_before":1,
+         "unit_after":4,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Ural",
+         "unit_before":1,
+         "unit_after":8,
+         "amount":7
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"India",
+         "unit_before":1,
+         "unit_after":4,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Eastern United States",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Eastern United States",
+         "unit_before":4,
+         "unit_after":5,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"North West Territory",
+         "unit_before":1,
+         "unit_after":2,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Ukraine",
+         "init_offend":8,
+         "init_defend":4,
+         "after_offend":7,
+         "after_defend":3,
+         "rolls_offend":[
+            1,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            1,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Ukraine",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":6,
+         "after_defend":2,
+         "rolls_offend":[
+            4,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Ukraine",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":2,
+         "rolls_offend":[
+            3,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ural",
+         "country_defend":"Ukraine",
+         "init_offend":4,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            4
+         
+],
+         "rolls_defend":[
+            3,
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Ural",
+         "dest":"Ukraine",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Eastern United States",
+         "country_defend":"Central America",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Eastern United States",
+         "country_defend":"Central America",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Eastern United States",
+         "dest":"Central America",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"India",
+         "country_defend":"Middle East",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"India",
+         "country_defend":"Middle East",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"India",
+         "dest":"Middle East",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"Alberta",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Alaska",
+         "dest":"Alberta",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":2,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":0,
+         "rolls_offend":[
+            5
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Siam",
+         "dest":"Indonesia",
+         "init_orig":2,
+         "init_dest":0,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":2,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":0,
+         "rolls_offend":[
+            4
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Central America",
+         "dest":"Venezuela",
+         "init_orig":2,
+         "init_dest":0,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Southern Europe",
+         "unit_before":2,
+         "unit_after":6,
+         "amount":4
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Peru",
+         "unit_before":3,
+         "unit_after":5,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Western Australia",
+         "unit_before":1,
+         "unit_after":5,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Southern Europe",
+         "country_defend":"Middle East",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Southern Europe",
+         "dest":"Middle East",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Peru",
+         "country_defend":"Venezuela",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Peru",
+         "dest":"Venezuela",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Western Europe",
+         "dest":"Southern Europe",
+         "init_orig":2,
+         "init_dest":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Eastern United States",
+         "unit_before":1,
+         "unit_after":4,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Ukraine",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"North West Territory",
+         "unit_before":2,
+         "unit_after":4,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Eastern United States",
+         "country_defend":"Western United States",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Eastern United States",
+         "dest":"Western United States",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"North West Territory",
+         "country_defend":"Greenland",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"North West Territory",
+         "dest":"Greenland",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Western United States",
+         "dest":"Ontario",
+         "init_orig":3,
+         "init_dest":1,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Western Australia",
+         "unit_before":2,
+         "unit_after":5,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Middle East",
+         "unit_before":4,
+         "unit_after":9,
+         "amount":5
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Middle East",
+         "unit_before":9,
+         "unit_after":13,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Indonesia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Western Australia",
+         "dest":"Indonesia",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Ukraine",
+         "init_offend":13,
+         "init_defend":4,
+         "after_offend":11,
+         "after_defend":4,
+         "rolls_offend":[
+            1,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Ukraine",
+         "init_offend":11,
+         "init_defend":4,
+         "after_offend":10,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Ukraine",
+         "init_offend":10,
+         "init_defend":3,
+         "after_offend":10,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Ukraine",
+         "init_offend":10,
+         "init_defend":1,
+         "after_offend":10,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Middle East",
+         "dest":"Ukraine",
+         "init_orig":10,
+         "init_dest":0,
+         "amount":8
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Ukraine",
+         "dest":"Middle East",
+         "init_orig":8,
+         "init_dest":2,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Siam",
+         "unit_before":1,
+         "unit_after":7,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            3,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Siam",
+         "country_defend":"Indonesia",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Siam",
+         "dest":"Indonesia",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Indonesia",
+         "country_defend":"Western Australia",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Indonesia",
+         "country_defend":"Western Australia",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Indonesia",
+         "dest":"Western Australia",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Western Australia",
+         "country_defend":"Eastern Australia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Western Australia",
+         "dest":"Eastern Australia",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Greenland",
+         "dest":"Iceland",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Alberta",
+         "dest":"Ontario",
+         "init_orig":3,
+         "init_dest":3,
+         "amount":2
+      
+},
+      {
+         "type":4,
+         "player":"smartboy",
+         "cards":[
+            "Cannon - Mongolia",
+            "Cannon - Scandinavia",
+            "Cannon - Ukraine"
+         
+],
+         "amount":15
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Great Britain",
+         "unit_before":4,
+         "unit_after":6,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"New Guinea",
+         "unit_before":1,
+         "unit_after":11,
+         "amount":10
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Middle East",
+         "unit_before":4,
+         "unit_after":14,
+         "amount":10
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"New Guinea",
+         "unit_before":11,
+         "unit_after":14,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Venezuela",
+         "unit_before":4,
+         "unit_after":5,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Great Britain",
+         "country_defend":"Iceland",
+         "init_offend":6,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":2,
+         "rolls_offend":[
+            2,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Great Britain",
+         "country_defend":"Iceland",
+         "init_offend":4,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            1
+         
+],
+         "rolls_defend":[
+            3,
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Great Britain",
+         "dest":"Iceland",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"New Guinea",
+         "country_defend":"Indonesia",
+         "init_offend":14,
+         "init_defend":1,
+         "after_offend":13,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"New Guinea",
+         "country_defend":"Indonesia",
+         "init_offend":13,
+         "init_defend":1,
+         "after_offend":13,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            3
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"New Guinea",
+         "dest":"Indonesia",
+         "init_orig":13,
+         "init_dest":0,
+         "amount":12
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"Western Australia",
+         "init_offend":12,
+         "init_defend":1,
+         "after_offend":12,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Indonesia",
+         "dest":"Western Australia",
+         "init_orig":12,
+         "init_dest":0,
+         "amount":6
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Eastern Australia",
+         "init_offend":6,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":2,
+         "rolls_offend":[
+            4,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Western Australia",
+         "country_defend":"Eastern Australia",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Western Australia",
+         "dest":"Eastern Australia",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"Siam",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Indonesia",
+         "country_defend":"Siam",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Indonesia",
+         "dest":"Siam",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Siam",
+         "country_defend":"India",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Siam",
+         "dest":"India",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"India",
+         "country_defend":"China",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Middle East",
+         "country_defend":"Afghanistan",
+         "init_offend":14,
+         "init_defend":1,
+         "after_offend":14,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Middle East",
+         "dest":"Afghanistan",
+         "init_orig":14,
+         "init_dest":0,
+         "amount":13
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Ukraine",
+         "country_defend":"Ural",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Ukraine",
+         "country_defend":"Ural",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Ukraine",
+         "dest":"Ural",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Afghanistan",
+         "country_defend":"China",
+         "init_offend":13,
+         "init_defend":1,
+         "after_offend":13,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Afghanistan",
+         "dest":"China",
+         "init_orig":13,
+         "init_dest":0,
+         "amount":12
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Ural",
+         "country_defend":"Siberia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Ural",
+         "dest":"Siberia",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"China",
+         "country_defend":"Mongolia",
+         "init_offend":12,
+         "init_defend":1,
+         "after_offend":12,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"China",
+         "dest":"Mongolia",
+         "init_orig":12,
+         "init_dest":0,
+         "amount":11
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Siberia",
+         "country_defend":"Irkutsk",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Siberia",
+         "dest":"Irkutsk",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Mongolia",
+         "country_defend":"Kamchatka",
+         "init_offend":11,
+         "init_defend":1,
+         "after_offend":11,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Mongolia",
+         "dest":"Kamchatka",
+         "init_orig":11,
+         "init_dest":0,
+         "amount":9
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":9,
+         "init_defend":1,
+         "after_offend":9,
+         "after_defend":0,
+         "rolls_offend":[
+            3,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Kamchatka",
+         "dest":"Japan",
+         "init_orig":9,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Yakutsk",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Kamchatka",
+         "dest":"Yakutsk",
+         "init_orig":6,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Japan",
+         "dest":"Kamchatka",
+         "init_orig":3,
+         "init_dest":3,
+         "amount":2
+      
+},
+      {
+         "type":4,
+         "player":"dumbo",
+         "cards":[
+            "Cavalry - Great Britain",
+            "Cavalry - Greenland",
+            "Cavalry - Kamchatka"
+         
+],
+         "amount":20
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Central America",
+         "unit_before":1,
+         "unit_after":10,
+         "amount":9
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Alaska",
+         "unit_before":1,
+         "unit_after":10,
+         "amount":9
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Greenland",
+         "unit_before":3,
+         "unit_after":4,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Greenland",
+         "unit_before":4,
+         "unit_after":7,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Alaska",
+         "unit_before":10,
+         "unit_after":11,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":10,
+         "init_defend":5,
+         "after_offend":8,
+         "after_defend":5,
+         "rolls_offend":[
+            4,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":8,
+         "init_defend":5,
+         "after_offend":7,
+         "after_defend":4,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":7,
+         "init_defend":4,
+         "after_offend":5,
+         "after_defend":4,
+         "rolls_offend":[
+            2,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":5,
+         "init_defend":4,
+         "after_offend":4,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":4,
+         "init_defend":3,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Central America",
+         "country_defend":"Venezuela",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Central America",
+         "dest":"Venezuela",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"Kamchatka",
+         "init_offend":11,
+         "init_defend":5,
+         "after_offend":11,
+         "after_defend":3,
+         "rolls_offend":[
+            3,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            0,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"Kamchatka",
+         "init_offend":11,
+         "init_defend":3,
+         "after_offend":9,
+         "after_defend":3,
+         "rolls_offend":[
+            4,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            5,
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"Kamchatka",
+         "init_offend":9,
+         "init_defend":3,
+         "after_offend":9,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Alaska",
+         "country_defend":"Kamchatka",
+         "init_offend":9,
+         "init_defend":1,
+         "after_offend":9,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Alaska",
+         "dest":"Kamchatka",
+         "init_orig":9,
+         "init_dest":0,
+         "amount":8
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Ontario",
+         "country_defend":"Quebec",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Ontario",
+         "dest":"Quebec",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Kamchatka",
+         "dest":"Japan",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":5
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":3,
+         "rolls_offend":[
+            3,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Greenland",
+         "country_defend":"Iceland",
+         "init_offend":5,
+         "init_defend":3,
+         "after_offend":3,
+         "after_defend":3,
+         "rolls_offend":[
+            3,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Japan",
+         "country_defend":"Mongolia",
+         "init_offend":5,
+         "init_defend":2,
+         "after_offend":4,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            3,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Japan",
+         "country_defend":"Mongolia",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Japan",
+         "country_defend":"Mongolia",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Japan",
+         "dest":"Mongolia",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Mongolia",
+         "dest":"Kamchatka",
+         "init_orig":2,
+         "init_dest":2,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Iceland",
+         "unit_before":3,
+         "unit_after":8,
+         "amount":5
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Iceland",
+         "unit_before":8,
+         "unit_after":11,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Brazil",
+         "unit_before":1,
+         "unit_after":8,
+         "amount":7
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Brazil",
+         "unit_before":8,
+         "unit_after":11,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Iceland",
+         "unit_before":11,
+         "unit_after":12,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Iceland",
+         "country_defend":"Greenland",
+         "init_offend":12,
+         "init_defend":3,
+         "after_offend":10,
+         "after_defend":3,
+         "rolls_offend":[
+            3,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Iceland",
+         "country_defend":"Greenland",
+         "init_offend":10,
+         "init_defend":3,
+         "after_offend":9,
+         "after_defend":2,
+         "rolls_offend":[
+            2,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            2,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Iceland",
+         "country_defend":"Greenland",
+         "init_offend":9,
+         "init_defend":2,
+         "after_offend":8,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            2,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Iceland",
+         "country_defend":"Greenland",
+         "init_offend":8,
+         "init_defend":1,
+         "after_offend":8,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Iceland",
+         "dest":"Greenland",
+         "init_orig":8,
+         "init_dest":0,
+         "amount":7
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Brazil",
+         "country_defend":"Venezuela",
+         "init_offend":11,
+         "init_defend":3,
+         "after_offend":9,
+         "after_defend":3,
+         "rolls_offend":[
+            4,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Brazil",
+         "country_defend":"Venezuela",
+         "init_offend":9,
+         "init_defend":3,
+         "after_offend":7,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Brazil",
+         "country_defend":"Venezuela",
+         "init_offend":7,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Brazil",
+         "country_defend":"Venezuela",
+         "init_offend":5,
+         "init_defend":3,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Brazil",
+         "country_defend":"Venezuela",
+         "init_offend":5,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            3
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Brazil",
+         "dest":"Venezuela",
+         "init_orig":5,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Irkutsk",
+         "dest":"Siberia",
+         "init_orig":2,
+         "init_dest":1,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"dumbo",
+         "country":"Quebec",
+         "unit_before":3,
+         "unit_after":6,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"dumbo",
+         "player_defend":"smartboy",
+         "country_offend":"Kamchatka",
+         "country_defend":"Irkutsk",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"dumbo",
+         "orig":"Kamchatka",
+         "dest":"Irkutsk",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":4,
+         "player":"smartboy",
+         "cards":[
+            "Cavalry - Peru",
+            "Cavalry - Southern Europe",
+            "Cavalry - Ontario"
+         
+],
+         "amount":25
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":3,
+         "unit_after":9,
+         "amount":6
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":9,
+         "unit_after":26,
+         "amount":17
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":26,
+         "unit_after":34,
+         "amount":8
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":34,
+         "unit_after":39,
+         "amount":5
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":39,
+         "unit_after":42,
+         "amount":3
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":42,
+         "unit_after":44,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":44,
+         "unit_after":46,
+         "amount":2
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":46,
+         "unit_after":47,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":47,
+         "unit_after":48,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":48,
+         "unit_after":49,
+         "amount":1
+      
+},
+      {
+         "type":0,
+         "player":"smartboy",
+         "country":"Yakutsk",
+         "unit_before":49,
+         "unit_after":50,
+         "amount":1
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Yakutsk",
+         "country_defend":"Kamchatka",
+         "init_offend":50,
+         "init_defend":1,
+         "after_offend":49,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Yakutsk",
+         "country_defend":"Kamchatka",
+         "init_offend":49,
+         "init_defend":1,
+         "after_offend":49,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            4,
+            1
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Yakutsk",
+         "dest":"Kamchatka",
+         "init_orig":49,
+         "init_dest":0,
+         "amount":48
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":48,
+         "init_defend":1,
+         "after_offend":47,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":47,
+         "init_defend":1,
+         "after_offend":46,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":46,
+         "init_defend":1,
+         "after_offend":45,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Japan",
+         "init_offend":45,
+         "init_defend":1,
+         "after_offend":45,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            2
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Kamchatka",
+         "dest":"Japan",
+         "init_orig":45,
+         "init_dest":0,
+         "amount":8
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Mongolia",
+         "init_offend":37,
+         "init_defend":1,
+         "after_offend":36,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            4
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Mongolia",
+         "init_offend":36,
+         "init_defend":1,
+         "after_offend":36,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            4,
+            2
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Kamchatka",
+         "dest":"Mongolia",
+         "init_orig":36,
+         "init_dest":0,
+         "amount":4
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Irkutsk",
+         "init_offend":32,
+         "init_defend":2,
+         "after_offend":30,
+         "after_defend":2,
+         "rolls_offend":[
+            4,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Irkutsk",
+         "init_offend":30,
+         "init_defend":2,
+         "after_offend":29,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Irkutsk",
+         "init_offend":29,
+         "init_defend":1,
+         "after_offend":28,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            4,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Irkutsk",
+         "init_offend":28,
+         "init_defend":1,
+         "after_offend":28,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Kamchatka",
+         "dest":"Irkutsk",
+         "init_orig":28,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Venezuela",
+         "country_defend":"Central America",
+         "init_offend":4,
+         "init_defend":1,
+         "after_offend":4,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Venezuela",
+         "dest":"Central America",
+         "init_orig":4,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"North West Territory",
+         "init_offend":7,
+         "init_defend":1,
+         "after_offend":6,
+         "after_defend":1,
+         "rolls_offend":[
+            3,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"North West Territory",
+         "init_offend":6,
+         "init_defend":1,
+         "after_offend":5,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Central America",
+         "country_defend":"Western United States",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":2,
+         "after_defend":1,
+         "rolls_offend":[
+            0,
+            0
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"Quebec",
+         "init_offend":5,
+         "init_defend":6,
+         "after_offend":3,
+         "after_defend":6,
+         "rolls_offend":[
+            4,
+            1,
+            1
+         
+],
+         "rolls_defend":[
+            5,
+            2
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Kamchatka",
+         "country_defend":"Alaska",
+         "init_offend":25,
+         "init_defend":1,
+         "after_offend":25,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            4
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Kamchatka",
+         "dest":"Alaska",
+         "init_orig":25,
+         "init_dest":0,
+         "amount":24
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Greenland",
+         "country_defend":"North West Territory",
+         "init_offend":3,
+         "init_defend":1,
+         "after_offend":3,
+         "after_defend":0,
+         "rolls_offend":[
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            0
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Greenland",
+         "dest":"North West Territory",
+         "init_orig":3,
+         "init_dest":0,
+         "amount":2
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alaska",
+         "country_defend":"Alberta",
+         "init_offend":24,
+         "init_defend":1,
+         "after_offend":23,
+         "after_defend":1,
+         "rolls_offend":[
+            5,
+            3,
+            1
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alaska",
+         "country_defend":"Alberta",
+         "init_offend":23,
+         "init_defend":1,
+         "after_offend":23,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Alaska",
+         "dest":"Alberta",
+         "init_orig":23,
+         "init_dest":0,
+         "amount":22
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alberta",
+         "country_defend":"Ontario",
+         "init_offend":22,
+         "init_defend":2,
+         "after_offend":20,
+         "after_defend":2,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alberta",
+         "country_defend":"Ontario",
+         "init_offend":20,
+         "init_defend":2,
+         "after_offend":18,
+         "after_defend":2,
+         "rolls_offend":[
+            3,
+            2,
+            1
+         
+],
+         "rolls_defend":[
+            4,
+            3
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alberta",
+         "country_defend":"Ontario",
+         "init_offend":18,
+         "init_defend":2,
+         "after_offend":17,
+         "after_defend":1,
+         "rolls_offend":[
+            4,
+            2,
+            2
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Alberta",
+         "country_defend":"Ontario",
+         "init_offend":17,
+         "init_defend":1,
+         "after_offend":17,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Alberta",
+         "dest":"Ontario",
+         "init_orig":17,
+         "init_dest":0,
+         "amount":15
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Ontario",
+         "country_defend":"Eastern United States",
+         "init_offend":15,
+         "init_defend":1,
+         "after_offend":15,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            3,
+            3
+         
+],
+         "rolls_defend":[
+            3
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Ontario",
+         "dest":"Eastern United States",
+         "init_orig":15,
+         "init_dest":0,
+         "amount":13
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Western United States",
+         "init_offend":13,
+         "init_defend":1,
+         "after_offend":12,
+         "after_defend":1,
+         "rolls_offend":[
+            2,
+            1,
+            0
+         
+],
+         "rolls_defend":[
+            5
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Western United States",
+         "init_offend":12,
+         "init_defend":1,
+         "after_offend":12,
+         "after_defend":0,
+         "rolls_offend":[
+            5,
+            5,
+            4
+         
+],
+         "rolls_defend":[
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Eastern United States",
+         "dest":"Western United States",
+         "init_orig":12,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Quebec",
+         "init_offend":9,
+         "init_defend":6,
+         "after_offend":8,
+         "after_defend":5,
+         "rolls_offend":[
+            5,
+            3,
+            0
+         
+],
+         "rolls_defend":[
+            5,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Quebec",
+         "init_offend":8,
+         "init_defend":5,
+         "after_offend":8,
+         "after_defend":3,
+         "rolls_offend":[
+            5,
+            4,
+            4
+         
+],
+         "rolls_defend":[
+            0,
+            0
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Quebec",
+         "init_offend":8,
+         "init_defend":3,
+         "after_offend":7,
+         "after_defend":2,
+         "rolls_offend":[
+            2,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            4,
+            1
+         
+]
+      
+},
+      {
+         "type":1,
+         "player_offend":"smartboy",
+         "player_defend":"dumbo",
+         "country_offend":"Eastern United States",
+         "country_defend":"Quebec",
+         "init_offend":7,
+         "init_defend":2,
+         "after_offend":7,
+         "after_defend":0,
+         "rolls_offend":[
+            4,
+            2,
+            0
+         
+],
+         "rolls_defend":[
+            1,
+            1
+         
+]
+      
+},
+      {
+         "type":2,
+         "player":"smartboy",
+         "orig":"Eastern United States",
+         "dest":"Quebec",
+         "init_orig":7,
+         "init_dest":0,
+         "amount":3
+      
+},
+      {
+         "type":5,
+         "player":"smartboy",
+         "mission":"Conquer the world by occupying every territory on the board, thus eliminating all your opponents.",
+         "win_game":"true"
+      
+}
+   
+],
+   "countries":{
+      "Alaska":{
+         "continent":"North America",
+         "id":"Alaska",
+         "neighbours":[
+            "North West Territory",
+            "Alberta",
+            "Kamchatka"
+         
+]
+      
+},
+      "North West Territory":{
+         "continent":"North America",
+         "id":"North-West-Territory",
+         "neighbours":[
+            "Alaska",
+            "Alberta",
+            "Ontario",
+            "Greenland"
+         
+]
+      
+},
+      "Alberta":{
+         "continent":"North America",
+         "id":"Alberta",
+         "neighbours":[
+            "Alaska",
+            "North West Territory",
+            "Ontario",
+            "Western United States"
+         
+]
+      
+},
+      "Western United States":{
+         "continent":"North America",
+         "id":"Western-United-States",
+         "neighbours":[
+            "Alberta",
+            "Ontario",
+            "Central America",
+            "Eastern United States"
+         
+]
+      
+},
+      "Central America":{
+         "continent":"North America",
+         "id":"Central-America",
+         "neighbours":[
+            "Western United States",
+            "Eastern United States",
+            "Venezuela"
+         
+]
+      
+},
+      "Greenland":{
+         "continent":"North America",
+         "id":"Greenland",
+         "neighbours":[
+            "North West Territory",
+            "Ontario",
+            "Quebec",
+            "Iceland"
+         
+]
+      
+},
+      "Ontario":{
+         "continent":"North America",
+         "id":"Ontario",
+         "neighbours":[
+            "North West Territory",
+            "Alberta",
+            "Western United States",
+            "Greenland",
+            "Quebec",
+            "Eastern United States"
+         
+]
+      
+},
+      "Quebec":{
+         "continent":"North America",
+         "id":"Quebec",
+         "neighbours":[
+            "Greenland",
+            "Ontario",
+            "Eastern United States"
+         
+]
+      
+},
+      "Eastern United States":{
+         "continent":"North America",
+         "id":"Eastern-United-States",
+         "neighbours":[
+            "Western United States",
+            "Central America",
+            "Ontario",
+            "Quebec"
+         
+]
+      
+},
+      "Venezuela":{
+         "continent":"South America",
+         "id":"Venezuela",
+         "neighbours":[
+            "Central America",
+            "Peru",
+            "Brazil"
+         
+]
+      
+},
+      "Peru":{
+         "continent":"South America",
+         "id":"Peru",
+         "neighbours":[
+            "Venezuela",
+            "Brazil",
+            "Argentina"
+         
+]
+      
+},
+      "Brazil":{
+         "continent":"South America",
+         "id":"Brazil",
+         "neighbours":[
+            "Venezuela",
+            "Peru",
+            "Argentina",
+            "North Africa"
+         
+]
+      
+},
+      "Argentina":{
+         "continent":"South America",
+         "id":"Argentina",
+         "neighbours":[
+            "Peru",
+            "Brazil"
+         
+]
+      
+},
+      "Iceland":{
+         "continent":"Europe",
+         "id":"Iceland",
+         "neighbours":[
+            "Greenland",
+            "Great Britain",
+            "Scandinavia"
+         
+]
+      
+},
+      "Scandinavia":{
+         "continent":"Europe",
+         "id":"Scandinavia",
+         "neighbours":[
+            "Ukraine",
+            "Northern Europe",
+            "Iceland",
+            "Great Britain"
+         
+]
+      
+},
+      "Ukraine":{
+         "continent":"Europe",
+         "id":"Ukraine",
+         "neighbours":[
+            "Scandinavia",
+            "Ural",
+            "Afghanistan",
+            "Middle East",
+            "Northern Europe",
+            "Southern Europe"
+         
+]
+      
+},
+      "Great Britain":{
+         "continent":"Europe",
+         "id":"Great-Britain",
+         "neighbours":[
+            "Iceland",
+            "Northern Europe",
+            "Western Europe",
+            "Scandinavia"
+         
+]
+      
+},
+      "Northern Europe":{
+         "continent":"Europe",
+         "id":"Northern-Europe",
+         "neighbours":[
+            "Scandinavia",
+            "Ukraine",
+            "Great Britain",
+            "Western Europe",
+            "Southern Europe"
+         
+]
+      
+},
+      "Western Europe":{
+         "continent":"Europe",
+         "id":"Western-Europe",
+         "neighbours":[
+            "Great Britain",
+            "Northern Europe",
+            "Southern Europe",
+            "North Africa"
+         
+]
+      
+},
+      "Southern Europe":{
+         "continent":"Europe",
+         "id":"Southern-Europe",
+         "neighbours":[
+            "Ukraine",
+            "Northern Europe",
+            "Western Europe",
+            "North Africa",
+            "Egypt",
+            "Middle East"
+         
+]
+      
+},
+      "North Africa":{
+         "continent":"Africa",
+         "id":"North-Africa",
+         "neighbours":[
+            "Brazil",
+            "Western Europe",
+            "Southern Europe",
+            "Egypt",
+            "Congo",
+            "East Africa"
+         
+]
+      
+},
+      "Egypt":{
+         "continent":"Africa",
+         "id":"Egypt",
+         "neighbours":[
+            "Southern Europe",
+            "North Africa",
+            "East Africa",
+            "Middle East"
+         
+]
+      
+},
+      "Congo":{
+         "continent":"Africa",
+         "id":"Congo",
+         "neighbours":[
+            "North Africa",
+            "East Africa",
+            "South Africa"
+         
+]
+      
+},
+      "East Africa":{
+         "continent":"Africa",
+         "id":"East-Africa",
+         "neighbours":[
+            "North Africa",
+            "Egypt",
+            "Congo",
+            "South Africa",
+            "Madagascar"
+         
+]
+      
+},
+      "South Africa":{
+         "continent":"Africa",
+         "id":"South-Africa",
+         "neighbours":[
+            "Congo",
+            "East Africa",
+            "Madagascar"
+         
+]
+      
+},
+      "Madagascar":{
+         "continent":"Africa",
+         "id":"Madagascar",
+         "neighbours":[
+            "East Africa",
+            "South Africa"
+         
+]
+      
+},
+      "Siberia":{
+         "continent":"Asia",
+         "id":"Siberia",
+         "neighbours":[
+            "Ural",
+            "China",
+            "Yakutsk",
+            "Irkutsk",
+            "Mongolia"
+         
+]
+      
+},
+      "Ural":{
+         "continent":"Asia",
+         "id":"Ural",
+         "neighbours":[
+            "Ukraine",
+            "Siberia",
+            "China",
+            "Afghanistan"
+         
+]
+      
+},
+      "China":{
+         "continent":"Asia",
+         "id":"China",
+         "neighbours":[
+            "Siberia",
+            "Ural",
+            "Afghanistan",
+            "India",
+            "Siam",
+            "Mongolia"
+         
+]
+      
+},
+      "Afghanistan":{
+         "continent":"Asia",
+         "id":"Afghanistan",
+         "neighbours":[
+            "Ukraine",
+            "Ural",
+            "China",
+            "Middle East",
+            "India"
+         
+]
+      
+},
+      "Middle East":{
+         "continent":"Asia",
+         "id":"Middle-East",
+         "neighbours":[
+            "Ukraine",
+            "Egypt",
+            "Afghanistan",
+            "India",
+            "Southern Europe"
+         
+]
+      
+},
+      "India":{
+         "continent":"Asia",
+         "id":"India",
+         "neighbours":[
+            "China",
+            "Afghanistan",
+            "Middle East",
+            "Siam"
+         
+]
+      
+},
+      "Siam":{
+         "continent":"Asia",
+         "id":"Siam",
+         "neighbours":[
+            "China",
+            "India",
+            "Indonesia"
+         
+]
+      
+},
+      "Yakutsk":{
+         "continent":"Asia",
+         "id":"Yakutsk",
+         "neighbours":[
+            "Siberia",
+            "Irkutsk",
+            "Kamchatka"
+         
+]
+      
+},
+      "Irkutsk":{
+         "continent":"Asia",
+         "id":"Irkutsk",
+         "neighbours":[
+            "Siberia",
+            "Yakutsk",
+            "Mongolia",
+            "Kamchatka"
+         
+]
+      
+},
+      "Mongolia":{
+         "continent":"Asia",
+         "id":"Mongolia",
+         "neighbours":[
+            "China",
+            "Irkutsk",
+            "Japan",
+            "Kamchatka",
+            "Siberia"
+         
+]
+      
+},
+      "Japan":{
+         "continent":"Asia",
+         "id":"Japan",
+         "neighbours":[
+            "Mongolia",
+            "Kamchatka"
+         
+]
+      
+},
+      "Kamchatka":{
+         "continent":"Asia",
+         "id":"Kamchatka",
+         "neighbours":[
+            "Alaska",
+            "Yakutsk",
+            "Irkutsk",
+            "Mongolia",
+            "Japan"
+         
+]
+      
+},
+      "Indonesia":{
+         "continent":"Australia",
+         "id":"Indonesia",
+         "neighbours":[
+            "Siam",
+            "Western Australia",
+            "New Guinea"
+         
+]
+      
+},
+      "New Guinea":{
+         "continent":"Australia",
+         "id":"New-Guinea",
+         "neighbours":[
+            "Indonesia",
+            "Western Australia",
+            "Eastern Australia"
+         
+]
+      
+},
+      "Western Australia":{
+         "continent":"Australia",
+         "id":"Western-Australia",
+         "neighbours":[
+            "Indonesia",
+            "New Guinea",
+            "Eastern Australia"
+         
+]
+      
+},
+      "Eastern Australia":{
+         "continent":"Australia",
+         "id":"Eastern-Australia",
+         "neighbours":[
+            "New Guinea",
+            "Western Australia"
+         
+]
+      
+}
+   
+},
+   "continents":{
+      "North America":{
+         "id":"North-America",
+         "value":5,
+         "countries":[
+            "Alaska",
+            "North West Territory",
+            "Alberta",
+            "Western United States",
+            "Central America",
+            "Greenland",
+            "Ontario",
+            "Quebec",
+            "Eastern United States"
+         
+],
+         "border_countries":[
+            "Alaska",
+            "Central America",
+            "Greenland"
+         
+]
+      
+},
+      "South America":{
+         "id":"South-America",
+         "value":2,
+         "countries":[
+            "Venezuela",
+            "Peru",
+            "Brazil",
+            "Argentina"
+         
+],
+         "border_countries":[
+            "Venezuela",
+            "Brazil"
+         
+]
+      
+},
+      "Europe":{
+         "id":"Europe",
+         "value":5,
+         "countries":[
+            "Iceland",
+            "Scandinavia",
+            "Ukraine",
+            "Great Britain",
+            "Northern Europe",
+            "Western Europe",
+            "Southern Europe"
+         
+],
+         "border_countries":[
+            "Iceland",
+            "Ukraine",
+            "Western Europe",
+            "Southern Europe"
+         
+]
+      
+},
+      "Africa":{
+         "id":"Africa",
+         "value":3,
+         "countries":[
+            "North Africa",
+            "Egypt",
+            "Congo",
+            "East Africa",
+            "South Africa",
+            "Madagascar"
+         
+],
+         "border_countries":[
+            "North Africa",
+            "Egypt"
+         
+]
+      
+},
+      "Asia":{
+         "id":"Asia",
+         "value":7,
+         "countries":[
+            "Siberia",
+            "Ural",
+            "China",
+            "Afghanistan",
+            "Middle East",
+            "India",
+            "Siam",
+            "Yakutsk",
+            "Irkutsk",
+            "Mongolia",
+            "Japan",
+            "Kamchatka"
+         
+],
+         "border_countries":[
+            "Ural",
+            "Afghanistan",
+            "Middle East",
+            "Siam",
+            "Kamchatka"
+         
+]
+      
+},
+      "Australia":{
+         "id":"Australia",
+         "value":2,
+         "countries":[
+            "Indonesia",
+            "New Guinea",
+            "Western Australia",
+            "Eastern Australia"
+         
+],
+         "border_countries":[
+            "Indonesia"
+         
+]
+      
+}
+   
+}
+}
