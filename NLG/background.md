@@ -1,0 +1,5 @@
+# Background 
+These reports concern the nations of Mongolia and Romania. Both nations are trying to take control of all countries in the world. Before the events in these reports, Mongolia has the following countries: Argentina, Japan, Southern Europe, Brazil, Middle East, Siam, India, Afghanistan, China, Ukraine, Western Europe, Peru, Quebec, Ontario, Greenland, North West Territory, Alberta, Alaska, Kamchatka, Yakutsk, Siberia, Mongolia, Irkutsk, Indonesia, Western United States, Western Australia, North Africa, New Guinea, Eastern Australia, Egypt, Venezuela, Ural and Central America, while Romania has the following countries: Congo, South Africa, East Africa, Iceland, Great Britain, Madagascar, Scandinavia, Eastern United States and Northern Europe.
+ 
+# World Map 
+![WorldMap](./worldmap.png 'World Map')

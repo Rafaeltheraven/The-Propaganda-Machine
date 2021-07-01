@@ -1,0 +1,223 @@
+/*
+	We must consider events one-by-one.
+	All templates will use the python string formatting format. So "some text {var}".
+	For the NLG system, we grab multiple strings from here and glue them together.
+*/
+{
+	"current": { // Templates for events related to the current player
+		"fortify": { // Templates for fortification events
+			"amount": { // Amount based templates
+				"big": [ // Big fortification
+
+				],
+				"med": [ // Medium Fortification
+
+				],
+				"small": [ // Small Foritification (probably not noteworthy)
+
+				]
+			},
+			"country": { // Country based
+				"defense": [ // When fortifying defensively
+
+				],
+				"offense": [ // When foritifying offensively
+
+				],
+				"time": { // For how many turns we spent fortifying this place
+					"short": [ // Short amount of time
+
+					],
+					"long": [ // Long amount of time
+
+					]
+				}
+			}
+		},
+		"attack": { // Templates for attack events
+			"win": { // Templates for winning a country
+				"amount": { // Templates based on amount of armies
+					"underdog": [ // Templates for small against big
+
+					],
+					"powerful": [ // Templates for big against small
+
+					],
+					"equal": [ // Templates for if equally matched
+
+					]
+				},
+				"rolls": { // Templates influenced by the rolls
+					"crush": [// Enemy was crushed
+
+					],
+					"struggle": [ // It was a struggle
+
+					],
+					"equal": [ // Evenly matched
+
+					]
+				},
+				"time": { // Templates based on how long this battle took
+					"long": [
+
+					],
+					"short": [
+
+					]
+				}
+			},
+			"loss": { // Templates for losing
+				"amount": { // Templates based on amount of armies
+					"underdog": [ // Templates for small against big
+
+					],
+					"powerful": [ // Templates for big against small
+
+					],
+					"equal": [ // Templates for if equally matched
+
+					]
+				},
+				"rolls": { // Templates influenced by the rolls
+					"crush": [// Enemy was crushed
+
+					],
+					"struggle": [ // It was a struggle
+
+					],
+					"equal": [ // Evenly matched
+
+					]
+				},
+				"time": { // Templates based on how long this battle took
+					"long": [
+
+					],
+					"short": [
+
+					]
+				}
+			},
+			"neutral": { // Templates for when the outcome is rather neutral
+				"amount": { // Templates based on amount of armies
+					"underdog": [ // Templates for small against big
+
+					],
+					"powerful": [ // Templates for big against small
+
+					],
+					"equal": [ // Templates for if equally matched
+
+					]
+				},
+				"rolls": { // Templates influenced by the rolls
+					"crush": [// Enemy was crushed
+
+					],
+					"struggle": [ // It was a struggle
+
+					],
+					"equal": [ // Evenly matched
+
+					]
+				},
+				"time": { // Templates based on how long this battle took
+					"long": [
+
+					],
+					"short": [
+
+					]
+				}
+			}
+		},
+		"move": { // Templates for move events
+			"amount": { // Amount based templates
+				"big": [ // Big move
+
+				],
+				"med": [ // Medium move
+
+				],
+				"small": [ // Small move (probably not noteworthy)
+
+				]
+			},
+			"country": { // Country based
+				"defense": [ // When moving defensively
+
+				],
+				"offense": [ // When moving offensively
+
+				],
+				"retreat": [ // When retreating
+
+				],
+				"time": { // For how many turns we spent moving to this country
+					"short": [ // Short amount of time
+
+					],
+					"long": [ // Long amount of time
+
+					]
+				}
+			}
+		},
+		"card": [ // Templates for card events. The only important card data is when we get one that allows us to trade
+
+		],
+		"trade": { // Templates for trade events
+			"amount": { // Amount based templates
+				"big": [
+
+				],
+				"med": [
+
+				],
+				"small": [
+				
+				]
+			},
+			"continue": [ // Templates for when we can trade even more
+			
+			],
+			"stop": [ // Templates for when we stop trading
+
+			]
+
+		},
+		"mission": { // Templates for goal events (these likely won't occur)
+			"win": [ // Templates for when we win
+
+			],
+			"lose": [ // Templates for when we lose
+
+			]
+
+		}
+	},
+	"other": { // Templates for events related to the opponent
+		0: {
+
+		},
+		1: {
+
+		},
+		2: {
+
+		},
+		3: {
+
+		},
+		4: {
+
+		},
+		5: {
+
+		}
+	},
+	"neutral": { // Neutral/Dry templates
+
+	}
+}

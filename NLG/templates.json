@@ -1,0 +1,198 @@
+{
+	"positive": {
+		"introduction": [
+			"The glory of god has smiled upon us again!",
+			"The glory of god has smiled upon our armies yet again!",
+			"The spirit of Sun Tzu must be proud of our soldiers!",
+			"Our leaders can be proud!"
+		],
+		"continue": {
+			"negative": [
+				"However, not all is lost!",
+				"Yet, there is always light after the darkness.",
+				"After our misfortune, we have taken luck into our own hands."
+			],
+			"positive": [
+				"And that's not all. ",
+				"And for more good news.",
+				"We just keep on winning!"
+			]
+		},
+		"event": {
+			"attack": {
+				"won": {
+					"steamroll": [
+						"Our glorious army has completely wiped away the enemy forces in {country2}! ",
+						"It took only 1 hour to make {country2} great again! We killed all enemy soldiers with ease.",
+						"{other_player} could do nothing but cower in fear at the sight of our great army as it swiftly took {country2} back from the oppressors!"
+					],
+					"underdog": [
+						"Like David to Goliath our brave soldiers marched into what {other_player} thought was assured destruction, but {curr_player}ns know no fear and swiftly took down the giant in {country2}! ",
+						"In an embarrassing display of incompetence. {other_player}'s armies had to run away in fear from {country2} at the sight of only a small group of {curr_player} men. You can imagine how they will react to our bigger armies!"
+					],
+					"struggle": [
+						"Our {ordinal(init_offend-after_offend+1)} battalion waltzed right into {country2} and wrestled control away from those cowardly {other_player}ns.",
+						"The fighting at {country2} has come to an end. Our strong army has taken control yet again!"
+					]
+				},
+				"progress": [
+					"Great progress has been made in the invasion of {country2}. It is only a matter of time before they crumble under our might! ",
+					"The {other_player}ns are looking weaker and weaker. Soon we will liberate {country2} from their oppressors."
+				],
+				"defending": {
+					"steamroll": [
+						"The \"brilliant\" {other_player} strategists showed their charity today as they marched their brittle army directly into our gunfire at {country2}. We should thank them for accepting defeat so easily! ",
+						"Our enemy proved even more foolish than previously thought! Their attempt at invasion was pathetic. Our {curr_player} soldiers could not help but laugh as they saw the {other_player}ns walk straight into their death." 
+					],
+					"underdog": [
+						"The {other_player}ns must have thought taking {country2} would be easy. They underestimated the great {curr_player} spirit and cunning! They arrived with many and left with few. ",
+						"{other_player} cowardly attempted to invade {country2} with their biggest army. They probably thought they stood no chance unless they fought an unequal fight! Well, they stood no chance anyway and their army was destroyed."
+					],
+					"struggle": [
+						"The battle in {country2} showed that we will be victorious in even the most difficult combat. Our brave soldiers endured the attack of those cheating {other_player}ns with strong will and sacrifice for the motherland.",
+						"After a long battle, the enemy was forced to retreat back into {country1}."
+					]
+				}
+			},
+			"card": [
+				"Breakthroughs from our scientists have allowed us to arm our soldiers faster and stronger than ever before! "
+			],
+			"trade": [
+				"The new troops arrived and were swiftly prepared to be deployed. "
+			],
+			"fortify": [
+				"Our great strategists have decided to deploy more troops to {country1}. This will surely bring us ever closer to victory! "
+			],
+			"move": [
+				"We are strategically moving our troops in {country1} to {country2}. {country1} will be kept safe by the brave men staying behind, while {country2} will become stronger and safer than ever. "
+			]
+		},
+		"fluff": {
+			"opening": [
+				"We have received news from the {country1} front. ",
+				"Word has reached from the {country1} front. ",
+				"A breakthrough has been reached at the {country1} front. "
+			],
+			"intermittent": [
+				"Those despicable {other_player}ns must be crying to their mothers. ",
+				"The weakling {other_player}ns have no chance against our brave soldiers. ",
+				"This is what happens when you don't want to surrender! ",
+				"Is this {other_player} showing defeat? ",
+				"This is God's punishment to {other_player}!"
+			],
+			"continuing": [
+				"But that is not all! ",
+				"And there is more good news still."
+			],
+			"conclusion": [
+				"Our victory is assured! "
+			],
+			"reason": [
+				"This was made possible because",
+				"The breakthrough came because"
+			]
+		}
+	},
+	"negative": {
+		"introduction": [
+			"God has been testing our brave soldiers.",
+			"Sad news today. May make us look bad but we remain strong!"
+		],
+		"continue": {
+			"positive": [
+				"Not all is well in the state of {curr_player} however.",
+				"It is sadly always calmest before the storm."
+			],
+			"negative": [
+				"Regrettably, we were tested even more.",
+				"The international community was shocked to hear the cowardly {other_player} push their luck even more."
+			]
+		},
+		"event": {
+			"attack": {
+				"loss": {
+					"steamroll": [
+						"Our armies in {country2} were met with more resistance than expected. This might give some the idea that we are losing, but nothing could be more wrong! We continue the attack on {country2} to free the people from the tyranny of {other_player} and we shall soon destroy their illegitimate occupation!",
+						"We underestimated the backhanded techniques {other_player} would use. It might take longer for us to liberate {country2} but it will happen!"
+					],
+					"underdog": [
+						"We had to march our small battalion of soldiers in {country1} to a battle in {country2} that seemed lost before it began. But we had to do it so we could weaken and distract those terrible {other_player}ns. Fear not, for we have lost but temporarily and will get revenge for our brave soldiers soon.",
+						"{other_player} surprised us with a bigger army than we could have ever expected. Our advance in {country2} was stopped, but we have not lost! We will regroup and crush {other_player} with our superior armies!"
+					]
+				},
+				"progress": [
+					"When attempting to liberate {country2} today many of our heroic soldiers have had to give their lives for their country. They have not given their lives in vain. The enemy thinks they have won, but they are not prepared for the swift retribution that they will face."
+				],
+				"defending": {
+					"steamroll": [
+						"After a great battle in {country2}, our leaders decided that we had to leave this part of the country in order to protect it's people and it's culture from destruction by the viscous {curr_player}. We have lost a number of good men, but we have heard rumours that they have lost even more. We shall return to {country2} stronger and better than ever before.",
+						"Our armies were forced to leave {country2} as those honorless {other_player} snuck up on us. Even when faced with such disrespectful tactics, our men were still able to fight back. The {other_player} victory is only temporary, they shall see what happens when they mess with {curr_player} men!"
+					],
+					"underdog": [
+						"{other_player} showed no respect as they marched their biggest army to steal our land in {country2}. They could achieve victory through cheating and unfair fighting. We shall see who is victorious when they face our even bigger armies! ",
+						"{other_player} showed that they can only win in an unfair matchup! Sending their biggest army to our smaller defense in {country2} shows they are afraid of our true power! No matter, when they are faced with our true power they will see what real battle is like!"
+					],
+					"struggle": [
+						"After a long and hard struggle in {country2}, the enemy has marched into the country and started oppressing it's people. This is only a minor setback and we shall return with swift-full vengeance.",
+						"More work has to be done to liberate {country2} and have their people join our great nation. While our strategists had hoped it could happen sooner, we will still be happy with later!"
+					]	
+				}
+			},
+			"card": [
+				"We have received news from our spies that {other_player} is developing new weaponry. Still, {country2} engineering is no match for our own! ",
+				"{other_player} is looking to strengthen their troops. Let them strengthen we say, they will still fall before our might!"
+			],
+			"trade": [
+				"Confirmed reports show that the arrival of new {other_player} troops is imminent. It is to be seen where they will be deployed, but no matter how many {country2} bodies they throw at us, we will persevere!",
+				"{other_player} has trained {amount} new troops. We say send them here! {amount*10}, {amount*100} troops it does not matter, we win anyway!"
+			],
+			"fortify": [
+				"Word has reached of {amount} new {other_player} troops arriving in {country1}. It is no matter, our victory is already assured! ",
+				"{other_player} may be moving {amount} troops to {country1}. Our brilliant strategists are laughing at the news!"
+			],
+			"move": [
+				"{other_player} has moved troops from {country1} to {country2} leaving {country1} completely defenseless for us to take. Is this {other_player} showing defeat? ",
+				"{other_player} decided to flee it's troops from {country1} to {country2}. They must be so afraid they are handing us {country1} on a silver platter! Our troops will be able to thank them personally when we take {country2} as well!"
+			]
+		},
+		"fluff": {
+			"opening": [
+				"Tragedy has struck {country2}.",
+				"Bad news from {country2}."
+			],
+			"intermittent": [
+				"Be assured that this is only a minor setback.",
+				"Our great government supports the families of lost ones completely."
+			],
+			"continuing": [
+				"The cowardly {other_player}ns pushed their luck even more.",
+				"And the enemy kept pushing."
+			],
+			"conclusion": [
+				"We will never surrender!",
+				"Be assured, we will turn this around!"
+			],
+			"reason": [
+				"We have heard some more reports from our spies. ",
+				"We have discovered the enemies plans."
+			]
+		}
+	},
+	"neutral": {
+		"linking": [
+			"Furthermore, ",
+			"In other news."
+		],
+		"background": {
+			"capital": "These reports concern the nations of {curr_player} and {other_player}. {curr_player} has it's capital in {capital1}, {other_player} has it's capital in {capital2}. Before the events in these reports, {curr_player} has the following countries: {countries1}, while {other_player} has the following countries: {countries2}.",
+			"mission": "These reports concern the nations of {curr_player} and {other_player}. {curr_player} has the objective to {objective1}, {other_player} has the objective to {objective2}. Before the events in these reports, {curr_player} has the following countries: {countries1}, while {other_player} has the following countries: {countries2}.",
+			"domination": "These reports concern the nations of {curr_player} and {other_player}. Both nations are trying to take control of all countries in the world. Before the events in these reports, {curr_player} has the following countries: {countries1}, while {other_player} has the following countries: {countries2}."
+		},
+		"fortify": "{curr_player} has fortified {country1} with {amount} units. It had {unit_before} units before and now has {unit_after}",
+		"attack": "{curr_player} has attacked {other_player} in {country2} from {country1}. {country2} had {init_defend} units before and {after_defend} units afterwards. {country1} had {init_offend} units before and {after_offend} units afterwards. {curr_player} rolled {rolls_offend} and {other_player} rolled {rolls_defend}.",
+		"move": "{curr_player} moved {amount} units from {country1} to {country2}.",
+		"card": "{curr_player} got the following card {card}.",
+		"trade": "{curr_player} traded in {cards} and received {amount} units in return.",
+		"goal": "{curr_player} completed their mission to {mission}."
+	}
+}
